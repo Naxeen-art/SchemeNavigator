@@ -222,3 +222,24 @@
 2026-03-13 23:38:32 | INFO     | agents.matcher_agent:find_relevant_schemes:48 - Optimized query: tamilnadu women schemes
 2026-03-13 23:38:32 | INFO     | agents.matcher_agent:find_relevant_schemes:76 - Found 3 relevant schemes for query
 2026-03-13 23:38:32 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 00:08:29 | INFO     | database.scheme_loader:load_from_json:20 - Loaded 15 schemes from JSON
+2026-03-14 00:08:29 | INFO     | database.mongo_handler:add_schemes_bulk:57 - Added 15 schemes
+2026-03-14 00:08:29 | INFO     | admin.upload_json:render_json_upload:78 - JSON upload success: Successfully saved 15 schemes
+2026-03-14 00:08:59 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'agriculture', 'keywords': ['farmer'], 'entities': {}, 'original_query': 'i am farmer\n'}
+2026-03-14 00:08:59 | INFO     | agents.matcher_agent:find_relevant_schemes:48 - Optimized query: agriculture farmer
+2026-03-14 00:09:00 | INFO     | agents.matcher_agent:find_relevant_schemes:76 - Found 1 relevant schemes for query
+2026-03-14 00:09:00 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 00:09:12 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'agriculture', 'keywords': ['farmer', 'tamilnadu'], 'entities': {}, 'original_query': 'i am farmer in tamilnadu\n\n'}
+2026-03-14 00:09:12 | INFO     | agents.matcher_agent:find_relevant_schemes:48 - Optimized query: agriculture farmer tamilnadu
+2026-03-14 00:09:13 | INFO     | agents.matcher_agent:find_relevant_schemes:76 - Found 5 relevant schemes for query
+2026-03-14 00:09:13 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 00:09:43 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'agriculture', 'keywords': ['farmer', 'tamilnadu'], 'entities': {}, 'original_query': 'i am farmer in tamilnadu\n\n'}
+2026-03-14 00:09:43 | INFO     | agents.matcher_agent:find_relevant_schemes:48 - Optimized query: agriculture farmer tamilnadu
+2026-03-14 00:09:43 | INFO     | agents.matcher_agent:find_relevant_schemes:76 - Found 5 relevant schemes for query
+2026-03-14 00:09:43 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 01:06:15 | INFO     | database.mongo_handler:add_user:129 - User added/updated: admin@example.com
+2026-03-14 01:06:15 | INFO     | __main__:admin_login:63 - Admin logged in: admin@example.com
+2026-03-14 01:06:53 | INFO     | database.scheme_loader:load_from_json:23 - Loaded single scheme from JSON
+2026-03-14 01:06:53 | WARNING  | database.scheme_loader:save_to_database:80 - Invalid scheme: Missing required field: scheme_name
+2026-03-14 01:09:14 | INFO     | database.mongo_handler:add_user:129 - User added/updated: admin@example.com
+2026-03-14 01:09:14 | INFO     | __main__:admin_login:63 - Admin logged in: admin@example.com

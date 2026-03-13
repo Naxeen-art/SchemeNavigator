@@ -1,0 +1,199 @@
+2026-03-14 00:15:09 | SUCCESS  | database.mongo_handler:connect:26 - Connected to MongoDB: scheme_navigator
+2026-03-14 00:15:09 | INFO     | agents.intent_agent:__init__:131 - Intent Agent initialized
+2026-03-14 00:15:09 | INFO     | agents.matcher_agent:_load_model:21 - Loading sentence transformer model...
+2026-03-14 00:15:15 | INFO     | agents.intent_agent:__init__:131 - Intent Agent initialized
+2026-03-14 00:15:15 | INFO     | agents.matcher_agent:__init__:16 - Matcher Agent initialized
+2026-03-14 00:15:37 | INFO     | database.mongo_handler:add_user:129 - User added/updated: neevan764@gmail.com
+2026-03-14 00:15:47 | INFO     | agents.matcher_agent:find_relevant_schemes:134 - Schemes after filtering: 1
+2026-03-14 00:15:47 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'agriculture', 'keywords': ['farmer', 'tamilnadu'], 'entities': {}, 'original_query': 'i am farmer in tamilnadu'}
+2026-03-14 00:15:47 | INFO     | agents.matcher_agent:find_relevant_schemes:142 - Optimized query: agriculture farmer tamilnadu
+2026-03-14 00:15:47 | INFO     | agents.matcher_agent:find_relevant_schemes:175 - Found 1 relevant schemes
+2026-03-14 00:15:47 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 00:16:43 | INFO     | agents.matcher_agent:find_relevant_schemes:134 - Schemes after filtering: 8
+2026-03-14 00:16:43 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'general', 'keywords': ['women', 'tamilnadu'], 'entities': {}, 'original_query': 'i am women in tamilnadu\n'}
+2026-03-14 00:16:43 | INFO     | agents.matcher_agent:find_relevant_schemes:142 - Optimized query: women tamilnadu
+2026-03-14 00:16:44 | INFO     | agents.matcher_agent:find_relevant_schemes:175 - Found 4 relevant schemes
+2026-03-14 00:16:44 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 00:18:35 | INFO     | agents.matcher_agent:find_relevant_schemes:134 - Schemes after filtering: 1
+2026-03-14 00:18:35 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'education', 'keywords': ['student', 'tamilnadu'], 'entities': {}, 'original_query': 'i am student in tamilnadu\n'}
+2026-03-14 00:18:35 | INFO     | agents.matcher_agent:find_relevant_schemes:142 - Optimized query: education student tamilnadu
+2026-03-14 00:18:35 | INFO     | agents.matcher_agent:find_relevant_schemes:175 - Found 1 relevant schemes
+2026-03-14 00:18:35 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 00:30:13 | SUCCESS  | database.mongo_handler:connect:26 - Connected to MongoDB: scheme_navigator
+2026-03-14 00:30:13 | INFO     | agents.intent_agent:__init__:131 - Intent Agent initialized
+2026-03-14 00:40:14 | SUCCESS  | database.mongo_handler:connect:26 - Connected to MongoDB: scheme_navigator
+2026-03-14 00:40:14 | INFO     | agents.intent_agent:__init__:131 - Intent Agent initialized
+2026-03-14 00:44:18 | INFO     | agents.matcher_agent:_load_model:31 - Loading sentence transformer model...
+2026-03-14 00:47:36 | SUCCESS  | database.mongo_handler:connect:26 - Connected to MongoDB: scheme_navigator
+2026-03-14 00:47:36 | INFO     | agents.intent_agent:__init__:131 - Intent Agent initialized
+2026-03-14 00:47:36 | INFO     | agents.intent_agent:__init__:131 - Intent Agent initialized
+2026-03-14 00:47:36 | INFO     | agents.matcher_agent:__init__:26 - Hybrid Matcher Agent initialized
+2026-03-14 00:53:11 | INFO     | database.mongo_handler:add_user:129 - User added/updated: neevan764@gmail.com
+2026-03-14 00:53:24 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'agriculture', 'keywords': ['farmer', 'tamilnadu'], 'entities': {}, 'original_query': 'i am farmer in tamilnadu'}
+2026-03-14 00:53:26 | INFO     | agents.matcher_agent:find_relevant_schemes:78 - Using 5 local results
+2026-03-14 00:53:26 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 00:59:42 | SUCCESS  | database.mongo_handler:connect:26 - Connected to MongoDB: scheme_navigator
+2026-03-14 00:59:42 | INFO     | agents.intent_agent:__init__:131 - Intent Agent initialized
+2026-03-14 01:01:55 | INFO     | agents.matcher_agent:_load_model:21 - Loading sentence transformer model...
+2026-03-14 01:02:05 | INFO     | agents.intent_agent:__init__:131 - Intent Agent initialized
+2026-03-14 01:02:05 | INFO     | agents.matcher_agent:__init__:16 - Matcher Agent initialized
+2026-03-14 01:04:09 | INFO     | database.mongo_handler:add_user:129 - User added/updated: neevan764@gmail.com
+2026-03-14 01:04:21 | INFO     | agents.matcher_agent:find_relevant_schemes:134 - Schemes after filtering: 1
+2026-03-14 01:04:21 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'agriculture', 'keywords': ['farmer', 'tamilnadu'], 'entities': {}, 'original_query': 'i am farmer in tamilnadu\n'}
+2026-03-14 01:04:21 | INFO     | agents.matcher_agent:find_relevant_schemes:142 - Optimized query: agriculture farmer tamilnadu
+2026-03-14 01:04:21 | INFO     | agents.matcher_agent:find_relevant_schemes:175 - Found 1 relevant schemes
+2026-03-14 01:04:22 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 01:10:09 | SUCCESS  | database.mongo_handler:connect:26 - Connected to MongoDB: scheme_navigator
+2026-03-14 01:10:23 | INFO     | database.mongo_handler:add_user:129 - User added/updated: admin@example.com
+2026-03-14 01:10:23 | INFO     | __main__:admin_login:63 - Admin logged in: admin@example.com
+2026-03-14 01:10:51 | INFO     | database.scheme_loader:load_from_json:20 - Loaded 18 schemes from JSON
+2026-03-14 01:10:51 | INFO     | database.mongo_handler:add_schemes_bulk:57 - Added 18 schemes
+2026-03-14 01:10:51 | INFO     | admin.upload_json:render_json_upload:81 - JSON upload success: Successfully saved 18 schemes
+2026-03-14 01:13:40 | ERROR    | admin.upload_csv:render_csv_upload:87 - CSV upload error: maximum recursion depth exceeded while calling a Python object
+2026-03-14 01:14:19 | INFO     | database.mongo_handler:add_user:129 - User added/updated: neevan764@gmail.com
+2026-03-14 01:14:41 | INFO     | agents.matcher_agent:find_relevant_schemes:134 - Schemes after filtering: 8
+2026-03-14 01:14:41 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'general', 'keywords': ['women', 'schemes', 'tamilnadu'], 'entities': {}, 'original_query': "women's schemes in tamilnadu"}
+2026-03-14 01:14:41 | INFO     | agents.matcher_agent:find_relevant_schemes:142 - Optimized query: women schemes tamilnadu
+2026-03-14 01:14:41 | INFO     | agents.matcher_agent:find_relevant_schemes:175 - Found 5 relevant schemes
+2026-03-14 01:14:42 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 01:15:37 | SUCCESS  | database.mongo_handler:connect:26 - Connected to MongoDB: scheme_navigator
+2026-03-14 01:15:51 | INFO     | database.mongo_handler:add_user:129 - User added/updated: admin@example.com
+2026-03-14 01:15:51 | INFO     | __main__:admin_login:63 - Admin logged in: admin@example.com
+2026-03-14 01:16:20 | INFO     | database.scheme_loader:load_from_json:20 - Loaded 4 schemes from JSON
+2026-03-14 01:16:20 | INFO     | database.mongo_handler:add_schemes_bulk:57 - Added 4 schemes
+2026-03-14 01:16:20 | INFO     | admin.upload_json:render_json_upload:81 - JSON upload success: Successfully saved 4 schemes
+2026-03-14 01:18:02 | INFO     | agents.matcher_agent:find_relevant_schemes:134 - Schemes after filtering: 1
+2026-03-14 01:18:02 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'agriculture', 'keywords': ['farmer'], 'entities': {}, 'original_query': 'farmer '}
+2026-03-14 01:18:02 | INFO     | agents.matcher_agent:find_relevant_schemes:142 - Optimized query: agriculture farmer
+2026-03-14 01:18:02 | INFO     | agents.matcher_agent:find_relevant_schemes:175 - Found 1 relevant schemes
+2026-03-14 01:18:02 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 01:18:14 | INFO     | agents.matcher_agent:find_relevant_schemes:134 - Schemes after filtering: 12
+2026-03-14 01:18:14 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'education', 'keywords': ['student'], 'entities': {}, 'original_query': 'student'}
+2026-03-14 01:18:14 | INFO     | agents.matcher_agent:find_relevant_schemes:142 - Optimized query: education student
+2026-03-14 01:18:14 | INFO     | agents.matcher_agent:find_relevant_schemes:175 - Found 5 relevant schemes
+2026-03-14 01:18:14 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 01:25:41 | INFO     | agents.matcher_agent:find_relevant_schemes:134 - Schemes after filtering: 8
+2026-03-14 01:25:41 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'general', 'keywords': ['women'], 'entities': {}, 'original_query': 'women'}
+2026-03-14 01:25:41 | INFO     | agents.matcher_agent:find_relevant_schemes:142 - Optimized query: women
+2026-03-14 01:25:42 | INFO     | agents.matcher_agent:find_relevant_schemes:175 - Found 2 relevant schemes
+2026-03-14 01:25:42 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 01:27:02 | INFO     | database.scheme_loader:load_from_json:20 - Loaded 4 schemes from JSON
+2026-03-14 01:27:02 | INFO     | database.mongo_handler:add_schemes_bulk:57 - Added 4 schemes
+2026-03-14 01:27:02 | INFO     | admin.upload_json:render_json_upload:81 - JSON upload success: Successfully saved 4 schemes
+2026-03-14 01:27:20 | INFO     | database.scheme_loader:load_from_json:20 - Loaded 6 schemes from JSON
+2026-03-14 01:27:20 | INFO     | database.mongo_handler:add_schemes_bulk:57 - Added 6 schemes
+2026-03-14 01:27:20 | INFO     | admin.upload_json:render_json_upload:81 - JSON upload success: Successfully saved 6 schemes
+2026-03-14 01:27:34 | INFO     | database.scheme_loader:load_from_json:20 - Loaded 5 schemes from JSON
+2026-03-14 01:27:34 | INFO     | database.mongo_handler:add_schemes_bulk:57 - Added 5 schemes
+2026-03-14 01:27:34 | INFO     | admin.upload_json:render_json_upload:81 - JSON upload success: Successfully saved 5 schemes
+2026-03-14 01:27:50 | INFO     | database.scheme_loader:load_from_json:20 - Loaded 3 schemes from JSON
+2026-03-14 01:27:50 | INFO     | database.mongo_handler:add_schemes_bulk:57 - Added 3 schemes
+2026-03-14 01:27:50 | INFO     | admin.upload_json:render_json_upload:81 - JSON upload success: Successfully saved 3 schemes
+2026-03-14 01:28:10 | INFO     | database.scheme_loader:load_from_json:20 - Loaded 8 schemes from JSON
+2026-03-14 01:28:10 | INFO     | database.mongo_handler:add_schemes_bulk:57 - Added 8 schemes
+2026-03-14 01:28:10 | INFO     | admin.upload_json:render_json_upload:81 - JSON upload success: Successfully saved 8 schemes
+2026-03-14 01:28:25 | INFO     | database.scheme_loader:load_from_json:20 - Loaded 6 schemes from JSON
+2026-03-14 01:28:25 | INFO     | database.mongo_handler:add_schemes_bulk:57 - Added 6 schemes
+2026-03-14 01:28:25 | INFO     | admin.upload_json:render_json_upload:81 - JSON upload success: Successfully saved 6 schemes
+2026-03-14 01:28:43 | INFO     | database.scheme_loader:load_from_json:20 - Loaded 3 schemes from JSON
+2026-03-14 01:28:43 | INFO     | database.mongo_handler:add_schemes_bulk:57 - Added 3 schemes
+2026-03-14 01:28:43 | INFO     | admin.upload_json:render_json_upload:81 - JSON upload success: Successfully saved 3 schemes
+2026-03-14 01:29:07 | INFO     | database.scheme_loader:load_from_json:20 - Loaded 15 schemes from JSON
+2026-03-14 01:29:07 | INFO     | database.mongo_handler:add_schemes_bulk:57 - Added 15 schemes
+2026-03-14 01:29:07 | INFO     | admin.upload_json:render_json_upload:81 - JSON upload success: Successfully saved 15 schemes
+2026-03-14 01:29:46 | INFO     | database.mongo_handler:add_user:129 - User added/updated: neevan764@gmail.com
+2026-03-14 01:29:54 | INFO     | agents.matcher_agent:find_relevant_schemes:134 - Schemes after filtering: 2
+2026-03-14 01:29:54 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'agriculture', 'keywords': ['farmer'], 'entities': {}, 'original_query': 'farmer'}
+2026-03-14 01:29:54 | INFO     | agents.matcher_agent:find_relevant_schemes:142 - Optimized query: agriculture farmer
+2026-03-14 01:29:54 | INFO     | agents.matcher_agent:find_relevant_schemes:175 - Found 2 relevant schemes
+2026-03-14 01:29:54 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 01:30:12 | INFO     | agents.matcher_agent:find_relevant_schemes:134 - Schemes after filtering: 15
+2026-03-14 01:30:12 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'education', 'keywords': ['student'], 'entities': {}, 'original_query': 'student'}
+2026-03-14 01:30:12 | INFO     | agents.matcher_agent:find_relevant_schemes:142 - Optimized query: education student
+2026-03-14 01:30:13 | INFO     | agents.matcher_agent:find_relevant_schemes:175 - Found 5 relevant schemes
+2026-03-14 01:30:13 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 01:45:03 | INFO     | agents.matcher_agent:find_relevant_schemes:134 - Schemes after filtering: 15
+2026-03-14 01:45:03 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'education', 'keywords': ['students', 'tamilnadu'], 'entities': {}, 'original_query': 'i am students in tamilnadu\n'}
+2026-03-14 01:45:03 | INFO     | agents.matcher_agent:find_relevant_schemes:142 - Optimized query: education students tamilnadu
+2026-03-14 01:45:04 | INFO     | agents.matcher_agent:find_relevant_schemes:175 - Found 5 relevant schemes
+2026-03-14 01:45:04 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 01:47:41 | INFO     | agents.matcher_agent:find_relevant_schemes:134 - Schemes after filtering: 17
+2026-03-14 01:47:41 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'general', 'keywords': ['tamil', 'nadu', 'women'], 'entities': {'state': 'tamil nadu'}, 'original_query': "tamil nadu women's"}
+2026-03-14 01:47:41 | INFO     | agents.matcher_agent:find_relevant_schemes:142 - Optimized query: tamil nadu women tamil nadu
+2026-03-14 01:47:42 | INFO     | agents.matcher_agent:find_relevant_schemes:175 - Found 5 relevant schemes
+2026-03-14 01:47:42 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 01:49:38 | INFO     | agents.matcher_agent:find_relevant_schemes:134 - Schemes after filtering: 15
+2026-03-14 01:49:38 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'education', 'keywords': ['student', 'tamilnadu'], 'entities': {}, 'original_query': 'i am student in tamilnadu\n'}
+2026-03-14 01:49:38 | INFO     | agents.matcher_agent:find_relevant_schemes:142 - Optimized query: education student tamilnadu
+2026-03-14 01:49:39 | INFO     | agents.matcher_agent:find_relevant_schemes:175 - Found 5 relevant schemes
+2026-03-14 01:49:39 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 01:49:42 | INFO     | agents.matcher_agent:find_relevant_schemes:134 - Schemes after filtering: 15
+2026-03-14 01:49:42 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'education', 'keywords': ['student', 'tamilnadu'], 'entities': {}, 'original_query': 'i am student in tamilnadu\n'}
+2026-03-14 01:49:42 | INFO     | agents.matcher_agent:find_relevant_schemes:142 - Optimized query: education student tamilnadu
+2026-03-14 01:49:42 | INFO     | agents.matcher_agent:find_relevant_schemes:175 - Found 5 relevant schemes
+2026-03-14 01:49:43 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 01:50:03 | INFO     | agents.matcher_agent:find_relevant_schemes:134 - Schemes after filtering: 17
+2026-03-14 01:50:03 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'general', 'keywords': ['women', 'schemes', 'tamilnadu'], 'entities': {}, 'original_query': 'women schemes in  tamilnadu'}
+2026-03-14 01:50:03 | INFO     | agents.matcher_agent:find_relevant_schemes:142 - Optimized query: women schemes tamilnadu
+2026-03-14 01:50:03 | INFO     | agents.matcher_agent:find_relevant_schemes:175 - Found 5 relevant schemes
+2026-03-14 01:50:03 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 01:50:23 | INFO     | agents.matcher_agent:find_relevant_schemes:134 - Schemes after filtering: 2
+2026-03-14 01:50:23 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'agriculture', 'keywords': ['farmer', 'tamilnadu'], 'entities': {}, 'original_query': 'farmer in tamilnadu'}
+2026-03-14 01:50:23 | INFO     | agents.matcher_agent:find_relevant_schemes:142 - Optimized query: agriculture farmer tamilnadu
+2026-03-14 01:50:23 | INFO     | agents.matcher_agent:find_relevant_schemes:175 - Found 2 relevant schemes
+2026-03-14 01:50:23 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 01:50:47 | INFO     | agents.matcher_agent:find_relevant_schemes:134 - Schemes after filtering: 15
+2026-03-14 01:50:47 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'education', 'keywords': ['student', 'tamilnadu'], 'entities': {}, 'original_query': 'i am a student in tamilnadu'}
+2026-03-14 01:50:47 | INFO     | agents.matcher_agent:find_relevant_schemes:142 - Optimized query: education student tamilnadu
+2026-03-14 01:50:48 | INFO     | agents.matcher_agent:find_relevant_schemes:175 - Found 5 relevant schemes
+2026-03-14 01:50:48 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 01:56:56 | INFO     | database.mongo_handler:add_user:129 - User added/updated: admin@example.com
+2026-03-14 01:56:56 | INFO     | __main__:admin_login:63 - Admin logged in: admin@example.com
+2026-03-14 01:57:09 | INFO     | database.mongo_handler:add_user:129 - User added/updated: neevan764@gmail.com
+2026-03-14 01:57:26 | INFO     | agents.matcher_agent:find_relevant_schemes:134 - Schemes after filtering: 15
+2026-03-14 01:57:26 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'education', 'keywords': ['student', 'tamilnadu'], 'entities': {}, 'original_query': 'i am student in tamilnadu'}
+2026-03-14 01:57:26 | INFO     | agents.matcher_agent:find_relevant_schemes:142 - Optimized query: education student tamilnadu
+2026-03-14 01:57:27 | INFO     | agents.matcher_agent:find_relevant_schemes:175 - Found 5 relevant schemes
+2026-03-14 01:57:27 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 02:07:07 | INFO     | database.mongo_handler:add_user:129 - User added/updated: neevan764@gmail.com
+2026-03-14 03:15:34 | INFO     | database.mongo_handler:add_user:129 - User added/updated: neevan764@gmail.com
+2026-03-14 03:15:57 | INFO     | agents.matcher_agent:find_relevant_schemes:134 - Schemes after filtering: 90
+2026-03-14 03:15:57 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'general', 'keywords': [], 'entities': {}, 'original_query': 'UPC\n'}
+2026-03-14 03:15:57 | INFO     | agents.matcher_agent:find_relevant_schemes:142 - Optimized query: 
+2026-03-14 03:16:00 | INFO     | agents.matcher_agent:find_relevant_schemes:134 - Schemes after filtering: 90
+2026-03-14 03:16:00 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'general', 'keywords': [], 'entities': {}, 'original_query': 'UPC\n'}
+2026-03-14 03:16:00 | INFO     | agents.matcher_agent:find_relevant_schemes:142 - Optimized query: 
+2026-03-14 03:16:04 | INFO     | agents.matcher_agent:find_relevant_schemes:175 - Found 0 relevant schemes
+2026-03-14 03:16:07 | INFO     | agents.matcher_agent:find_relevant_schemes:175 - Found 0 relevant schemes
+2026-03-14 03:16:07 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 03:16:19 | INFO     | agents.matcher_agent:find_relevant_schemes:134 - Schemes after filtering: 2
+2026-03-14 03:16:19 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'agriculture', 'keywords': ['farmer'], 'entities': {}, 'original_query': 'i am farmer'}
+2026-03-14 03:16:19 | INFO     | agents.matcher_agent:find_relevant_schemes:142 - Optimized query: agriculture farmer
+2026-03-14 03:16:19 | INFO     | agents.matcher_agent:find_relevant_schemes:175 - Found 2 relevant schemes
+2026-03-14 03:16:21 | INFO     | agents.matcher_agent:find_relevant_schemes:134 - Schemes after filtering: 2
+2026-03-14 03:16:21 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'agriculture', 'keywords': ['farmer'], 'entities': {}, 'original_query': 'i am farmer'}
+2026-03-14 03:16:21 | INFO     | agents.matcher_agent:find_relevant_schemes:142 - Optimized query: agriculture farmer
+2026-03-14 03:16:21 | INFO     | agents.matcher_agent:find_relevant_schemes:175 - Found 2 relevant schemes
+2026-03-14 03:16:21 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 03:16:21 | INFO     | agents.matcher_agent:find_relevant_schemes:134 - Schemes after filtering: 2
+2026-03-14 03:16:21 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'agriculture', 'keywords': ['farmer'], 'entities': {}, 'original_query': 'i am farmer'}
+2026-03-14 03:16:21 | INFO     | agents.matcher_agent:find_relevant_schemes:142 - Optimized query: agriculture farmer
+2026-03-14 03:16:22 | INFO     | agents.matcher_agent:find_relevant_schemes:175 - Found 2 relevant schemes
+2026-03-14 03:16:22 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 03:16:36 | INFO     | agents.matcher_agent:find_relevant_schemes:134 - Schemes after filtering: 2
+2026-03-14 03:16:36 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'agriculture', 'keywords': ['farmer'], 'entities': {}, 'original_query': '\nfarmer'}
+2026-03-14 03:16:36 | INFO     | agents.matcher_agent:find_relevant_schemes:142 - Optimized query: agriculture farmer
+2026-03-14 03:16:36 | INFO     | agents.matcher_agent:find_relevant_schemes:175 - Found 2 relevant schemes
+2026-03-14 03:16:37 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 03:20:46 | INFO     | agents.matcher_agent:find_relevant_schemes:134 - Schemes after filtering: 17
+2026-03-14 03:20:46 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'general', 'keywords': ['tamilnadu', 'women', 'schems'], 'entities': {}, 'original_query': 'tamilnadu women schems\n'}
+2026-03-14 03:20:46 | INFO     | agents.matcher_agent:find_relevant_schemes:142 - Optimized query: tamilnadu women schems
+2026-03-14 03:20:47 | INFO     | agents.matcher_agent:find_relevant_schemes:175 - Found 5 relevant schemes
+2026-03-14 03:20:47 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 03:21:33 | INFO     | database.mongo_handler:add_user:129 - User added/updated: admin@example.com
+2026-03-14 03:21:33 | INFO     | __main__:admin_login:63 - Admin logged in: admin@example.com
+2026-03-14 03:23:38 | INFO     | agents.matcher_agent:find_relevant_schemes:134 - Schemes after filtering: 17
+2026-03-14 03:23:38 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'general', 'keywords': ['tamil', 'nadu', 'women', 'schemes'], 'entities': {'state': 'tamil nadu'}, 'original_query': 'tamil nadu women schemes'}
+2026-03-14 03:23:38 | INFO     | agents.matcher_agent:find_relevant_schemes:142 - Optimized query: tamil nadu women tamil nadu
+2026-03-14 03:23:38 | INFO     | agents.matcher_agent:find_relevant_schemes:175 - Found 5 relevant schemes
+2026-03-14 03:23:39 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
