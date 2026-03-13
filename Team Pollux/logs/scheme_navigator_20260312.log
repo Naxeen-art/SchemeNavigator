@@ -1,0 +1,2 @@
+2026-03-12 21:30:12 | SUCCESS  | database.mongo_handler:connect:26 - Connected to MongoDB: scheme_navigator
+2026-03-12 21:31:17 | SUCCESS  | database.mongo_handler:connect:26 - Connected to MongoDB: scheme_navigator
