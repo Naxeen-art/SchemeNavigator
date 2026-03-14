@@ -197,3 +197,991 @@
 2026-03-14 03:23:38 | INFO     | agents.matcher_agent:find_relevant_schemes:142 - Optimized query: tamil nadu women tamil nadu
 2026-03-14 03:23:38 | INFO     | agents.matcher_agent:find_relevant_schemes:175 - Found 5 relevant schemes
 2026-03-14 03:23:39 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 03:32:01 | SUCCESS  | database.mongo_handler:connect:26 - Connected to MongoDB: scheme_navigator
+2026-03-14 03:33:57 | SUCCESS  | database.mongo_handler:connect:26 - Connected to MongoDB: scheme_navigator
+2026-03-14 03:33:57 | INFO     | agents.intent_agent:__init__:131 - Intent Agent initialized
+2026-03-14 03:35:10 | INFO     | agents.matcher_agent:_load_model:21 - Loading sentence transformer model...
+2026-03-14 03:35:18 | INFO     | agents.intent_agent:__init__:131 - Intent Agent initialized
+2026-03-14 03:35:18 | INFO     | agents.matcher_agent:__init__:16 - Matcher Agent initialized
+2026-03-14 03:35:36 | INFO     | database.mongo_handler:add_user:129 - User added/updated: neevan764@gmail.com
+2026-03-14 03:35:54 | INFO     | agents.matcher_agent:find_relevant_schemes:134 - Schemes after filtering: 17
+2026-03-14 03:35:54 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'general', 'keywords': ['tamilnadu', 'women', 'schemes'], 'entities': {}, 'original_query': 'tamilnadu women schemes\n'}
+2026-03-14 03:35:54 | INFO     | agents.matcher_agent:find_relevant_schemes:142 - Optimized query: tamilnadu women schemes
+2026-03-14 03:35:55 | INFO     | agents.matcher_agent:find_relevant_schemes:175 - Found 5 relevant schemes
+2026-03-14 03:35:56 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 03:37:38 | INFO     | agents.matcher_agent:find_relevant_schemes:134 - Schemes after filtering: 90
+2026-03-14 03:37:38 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'education', 'keywords': ['educations'], 'entities': {}, 'original_query': 'educations\n'}
+2026-03-14 03:37:38 | INFO     | agents.matcher_agent:find_relevant_schemes:142 - Optimized query: education educations
+2026-03-14 03:37:41 | INFO     | agents.matcher_agent:find_relevant_schemes:175 - Found 1 relevant schemes
+2026-03-14 03:37:41 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 03:41:18 | INFO     | agents.matcher_agent:find_relevant_schemes:134 - Schemes after filtering: 90
+2026-03-14 03:41:18 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'business', 'keywords': ['tamilnadu', 'msme'], 'entities': {}, 'original_query': 'tamilnadu MSME'}
+2026-03-14 03:41:18 | INFO     | agents.matcher_agent:find_relevant_schemes:142 - Optimized query: business tamilnadu msme
+2026-03-14 03:41:21 | INFO     | agents.matcher_agent:find_relevant_schemes:175 - Found 5 relevant schemes
+2026-03-14 03:41:21 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 03:57:24 | SUCCESS  | database.mongo_handler:connect:26 - Connected to MongoDB: scheme_navigator
+2026-03-14 03:57:24 | INFO     | agents.intent_agent:__init__:131 - Intent Agent initialized
+2026-03-14 03:57:46 | INFO     | agents.matcher_agent:_load_model:42 - Loading sentence transformer model...
+2026-03-14 03:57:54 | INFO     | agents.intent_agent:__init__:131 - Intent Agent initialized
+2026-03-14 03:57:54 | INFO     | agents.matcher_agent:__init__:37 - Hybrid Matcher Agent initialized with Domain Filter
+2026-03-14 04:01:21 | SUCCESS  | database.mongo_handler:connect:26 - Connected to MongoDB: scheme_navigator
+2026-03-14 04:01:21 | INFO     | agents.intent_agent:__init__:131 - Intent Agent initialized
+2026-03-14 04:01:21 | INFO     | agents.intent_agent:__init__:131 - Intent Agent initialized
+2026-03-14 04:01:21 | INFO     | agents.matcher_agent:__init__:37 - Hybrid Matcher Agent initialized with Domain Filter
+2026-03-14 04:01:35 | INFO     | database.mongo_handler:add_user:129 - User added/updated: neevan764@gmail.com
+2026-03-14 04:01:50 | INFO     | agents.matcher_agent:detect_query_domain:115 - Detected domain: women
+2026-03-14 04:01:50 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'general', 'keywords': ['tamilnadu', 'womens', 'schemes'], 'entities': {}, 'original_query': 'tamilnadu womens schemes'}
+2026-03-14 04:01:50 | INFO     | agents.matcher_agent:find_relevant_schemes:130 - Intent analysis - Domain: women, Category: general
+2026-03-14 04:01:50 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'general', 'keywords': ['tamilnadu', 'womens', 'schemes'], 'entities': {}, 'original_query': 'tamilnadu womens schemes'}
+2026-03-14 04:01:54 | INFO     | agents.matcher_agent:apply_domain_filtering:187 - Domain filter (Women): kept 10 of 15 schemes
+2026-03-14 04:01:54 | INFO     | agents.matcher_agent:find_relevant_schemes:160 - Returning 5 relevant schemes for domain 'women'
+2026-03-14 04:01:54 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 04:10:41 | SUCCESS  | database.mongo_handler:connect:26 - Connected to MongoDB: scheme_navigator
+2026-03-14 04:11:24 | SUCCESS  | database.mongo_handler:connect:26 - Connected to MongoDB: scheme_navigator
+2026-03-14 04:11:24 | INFO     | agents.intent_agent:__init__:131 - Intent Agent initialized
+2026-03-14 04:11:48 | INFO     | agents.matcher_agent:_load_model:42 - Loading sentence transformer model...
+2026-03-14 04:11:56 | INFO     | agents.intent_agent:__init__:131 - Intent Agent initialized
+2026-03-14 04:11:56 | INFO     | agents.matcher_agent:__init__:37 - Hybrid Matcher Agent initialized with Domain Filter
+2026-03-14 04:12:09 | INFO     | database.mongo_handler:add_user:129 - User added/updated: neevan764@gmail.com
+2026-03-14 04:12:27 | INFO     | agents.matcher_agent:detect_query_domain:115 - Detected domain: women
+2026-03-14 04:12:27 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'general', 'keywords': ['tamil', 'nadu', 'women', 'schemes'], 'entities': {'state': 'tamil nadu'}, 'original_query': 'tamil nadu women schemes'}
+2026-03-14 04:12:27 | INFO     | agents.matcher_agent:find_relevant_schemes:130 - Intent analysis - Domain: women, Category: general
+2026-03-14 04:12:27 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'general', 'keywords': ['tamil', 'nadu', 'women', 'schemes'], 'entities': {'state': 'tamil nadu'}, 'original_query': 'tamil nadu women schemes'}
+2026-03-14 04:12:30 | INFO     | agents.matcher_agent:apply_domain_filtering:187 - Domain filter (Women): kept 8 of 15 schemes
+2026-03-14 04:12:30 | INFO     | agents.matcher_agent:find_relevant_schemes:160 - Returning 5 relevant schemes for domain 'women'
+2026-03-14 04:12:30 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 04:19:45 | INFO     | agents.matcher_agent:detect_query_domain:115 - Detected domain: education
+2026-03-14 04:19:45 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'education', 'keywords': ['tamilnadu', 'students', 'schemes'], 'entities': {}, 'original_query': 'tamilnadu students schemes'}
+2026-03-14 04:19:45 | INFO     | agents.matcher_agent:find_relevant_schemes:130 - Intent analysis - Domain: education, Category: education
+2026-03-14 04:19:45 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'education', 'keywords': ['tamilnadu', 'students', 'schemes'], 'entities': {}, 'original_query': 'tamilnadu students schemes'}
+2026-03-14 04:19:52 | INFO     | agents.matcher_agent:apply_domain_filtering:182 - Domain filter (Education): kept 10 of 15 schemes
+2026-03-14 04:19:52 | INFO     | agents.matcher_agent:find_relevant_schemes:160 - Returning 5 relevant schemes for domain 'education'
+2026-03-14 04:19:53 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 04:36:07 | SUCCESS  | database.mongo_handler:connect:26 - Connected to MongoDB: scheme_navigator
+2026-03-14 04:43:03 | SUCCESS  | database.mongo_handler:connect:26 - Connected to MongoDB: scheme_navigator
+2026-03-14 04:43:03 | INFO     | agents.intent_agent:__init__:131 - Intent Agent initialized
+2026-03-14 04:51:07 | SUCCESS  | database.mongo_handler:connect:26 - Connected to MongoDB: scheme_navigator
+2026-03-14 04:51:07 | INFO     | agents.intent_agent:__init__:131 - Intent Agent initialized
+2026-03-14 04:51:22 | INFO     | agents.matcher_agent:<module>:21 - Sentence transformers available
+2026-03-14 04:51:22 | INFO     | agents.intent_agent:__init__:131 - Intent Agent initialized
+2026-03-14 04:51:23 | INFO     | agents.matcher_agent:_load_model:98 - Loading sentence transformer model...
+2026-03-14 04:52:18 | INFO     | agents.matcher_agent:__init__:92 - Hybrid Matcher Agent initialized
+2026-03-14 04:52:34 | INFO     | database.mongo_handler:add_user:129 - User added/updated: neevan764@gmail.com
+2026-03-14 04:52:51 | INFO     | agents.matcher_agent:detect_query_domain:142 - Detected domain: women
+2026-03-14 04:52:51 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'general', 'keywords': ['tamil', 'nadu', 'women', 'schemes'], 'entities': {'state': 'tamil nadu'}, 'original_query': 'tamil nadu women schemes'}
+2026-03-14 04:52:51 | INFO     | agents.matcher_agent:find_relevant_schemes:166 - Intent analysis - Domain: women, Category: general
+2026-03-14 04:52:51 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'general', 'keywords': ['tamil', 'nadu', 'women', 'schemes'], 'entities': {'state': 'tamil nadu'}, 'original_query': 'tamil nadu women schemes'}
+2026-03-14 04:52:54 | INFO     | agents.matcher_agent:apply_domain_filtering:272 - Domain filter (women): kept 15 schemes
+2026-03-14 04:52:54 | INFO     | agents.matcher_agent:find_relevant_schemes:208 - Returning 5 relevant schemes for domain 'women'
+2026-03-14 04:52:54 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 04:54:37 | INFO     | agents.matcher_agent:find_relevant_schemes:157 - Tamil query detected
+2026-03-14 04:54:39 | INFO     | agents.matcher_agent:find_relevant_schemes:159 - Translated to English: I am a farmer from Tamil Nadu
+2026-03-14 04:54:39 | INFO     | agents.matcher_agent:detect_query_domain:142 - Detected domain: agriculture
+2026-03-14 04:54:39 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'agriculture', 'keywords': ['farmer', 'tamil', 'nadu'], 'entities': {'state': 'tamil nadu'}, 'original_query': 'I am a farmer from Tamil Nadu'}
+2026-03-14 04:54:39 | INFO     | agents.matcher_agent:find_relevant_schemes:166 - Intent analysis - Domain: agriculture, Category: agriculture
+2026-03-14 04:54:39 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'agriculture', 'keywords': ['farmer', 'tamil', 'nadu'], 'entities': {'state': 'tamil nadu'}, 'original_query': 'I am a farmer from Tamil Nadu'}
+2026-03-14 04:54:42 | INFO     | agents.matcher_agent:apply_domain_filtering:272 - Domain filter (agriculture): kept 15 schemes
+2026-03-14 04:54:59 | INFO     | agents.matcher_agent:find_relevant_schemes:157 - Tamil query detected
+2026-03-14 04:54:59 | INFO     | agents.matcher_agent:find_relevant_schemes:159 - Translated to English: I am a farmer from Tamil Nadu
+2026-03-14 04:54:59 | INFO     | agents.matcher_agent:detect_query_domain:142 - Detected domain: agriculture
+2026-03-14 04:54:59 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'agriculture', 'keywords': ['farmer', 'tamil', 'nadu'], 'entities': {'state': 'tamil nadu'}, 'original_query': 'I am a farmer from Tamil Nadu'}
+2026-03-14 04:54:59 | INFO     | agents.matcher_agent:find_relevant_schemes:166 - Intent analysis - Domain: agriculture, Category: agriculture
+2026-03-14 04:54:59 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'agriculture', 'keywords': ['farmer', 'tamil', 'nadu'], 'entities': {'state': 'tamil nadu'}, 'original_query': 'I am a farmer from Tamil Nadu'}
+2026-03-14 04:55:02 | INFO     | agents.matcher_agent:apply_domain_filtering:272 - Domain filter (agriculture): kept 15 schemes
+2026-03-14 04:55:16 | INFO     | agents.matcher_agent:find_relevant_schemes:208 - Returning 5 relevant schemes for domain 'agriculture'
+2026-03-14 04:55:16 | INFO     | agents.matcher_agent:find_relevant_schemes:208 - Returning 5 relevant schemes for domain 'agriculture'
+2026-03-14 04:55:16 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 04:56:43 | INFO     | database.mongo_handler:add_user:129 - User added/updated: admin@example.com
+2026-03-14 04:56:43 | INFO     | __main__:admin_login:63 - Admin logged in: admin@example.com
+2026-03-14 04:57:57 | INFO     | agents.matcher_agent:find_relevant_schemes:157 - Tamil query detected
+2026-03-14 04:57:59 | INFO     | agents.matcher_agent:find_relevant_schemes:159 - Translated to English: Schemes for women in Tamil Nadu
+2026-03-14 04:57:59 | INFO     | agents.matcher_agent:detect_query_domain:142 - Detected domain: women
+2026-03-14 04:57:59 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'general', 'keywords': ['schemes', 'women', 'tamil', 'nadu'], 'entities': {'state': 'tamil nadu'}, 'original_query': 'Schemes for women in Tamil Nadu'}
+2026-03-14 04:57:59 | INFO     | agents.matcher_agent:find_relevant_schemes:166 - Intent analysis - Domain: women, Category: general
+2026-03-14 04:57:59 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'general', 'keywords': ['schemes', 'women', 'tamil', 'nadu'], 'entities': {'state': 'tamil nadu'}, 'original_query': 'Schemes for women in Tamil Nadu'}
+2026-03-14 04:58:02 | INFO     | agents.matcher_agent:apply_domain_filtering:272 - Domain filter (women): kept 15 schemes
+2026-03-14 04:58:19 | INFO     | agents.matcher_agent:find_relevant_schemes:157 - Tamil query detected
+2026-03-14 04:58:20 | INFO     | agents.matcher_agent:find_relevant_schemes:159 - Translated to English: Schemes for women in Tamil Nadu
+2026-03-14 04:58:20 | INFO     | agents.matcher_agent:detect_query_domain:142 - Detected domain: women
+2026-03-14 04:58:20 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'general', 'keywords': ['schemes', 'women', 'tamil', 'nadu'], 'entities': {'state': 'tamil nadu'}, 'original_query': 'Schemes for women in Tamil Nadu'}
+2026-03-14 04:58:20 | INFO     | agents.matcher_agent:find_relevant_schemes:166 - Intent analysis - Domain: women, Category: general
+2026-03-14 04:58:20 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'general', 'keywords': ['schemes', 'women', 'tamil', 'nadu'], 'entities': {'state': 'tamil nadu'}, 'original_query': 'Schemes for women in Tamil Nadu'}
+2026-03-14 04:58:20 | INFO     | agents.matcher_agent:find_relevant_schemes:208 - Returning 5 relevant schemes for domain 'women'
+2026-03-14 04:58:23 | INFO     | agents.matcher_agent:apply_domain_filtering:272 - Domain filter (women): kept 15 schemes
+2026-03-14 04:58:23 | INFO     | agents.matcher_agent:find_relevant_schemes:208 - Returning 5 relevant schemes for domain 'women'
+2026-03-14 04:58:23 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 05:02:34 | INFO     | agents.matcher_agent:detect_query_domain:142 - Detected domain: agriculture
+2026-03-14 05:02:34 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'agriculture', 'keywords': ['farmer', 'tamilnadu'], 'entities': {}, 'original_query': 'i am the farmer of the tamilnadu'}
+2026-03-14 05:02:34 | INFO     | agents.matcher_agent:find_relevant_schemes:166 - Intent analysis - Domain: agriculture, Category: agriculture
+2026-03-14 05:02:34 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'agriculture', 'keywords': ['farmer', 'tamilnadu'], 'entities': {}, 'original_query': 'i am the farmer of the tamilnadu'}
+2026-03-14 05:02:37 | INFO     | agents.matcher_agent:apply_domain_filtering:272 - Domain filter (agriculture): kept 15 schemes
+2026-03-14 05:02:37 | INFO     | agents.matcher_agent:find_relevant_schemes:208 - Returning 5 relevant schemes for domain 'agriculture'
+2026-03-14 05:02:37 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from neevan764@gmail.com
+2026-03-14 05:10:20 | INFO     | database.mongo_handler:add_user:129 - User added/updated: kesavankesavan73907@gmail.com
+2026-03-14 05:12:20 | INFO     | agents.matcher_agent:find_relevant_schemes:157 - Tamil query detected
+2026-03-14 05:12:21 | INFO     | agents.matcher_agent:find_relevant_schemes:159 - Translated to English: I am a farmer in Tamil Nadu. I need crop welfare schemes.
+2026-03-14 05:12:21 | INFO     | agents.matcher_agent:detect_query_domain:142 - Detected domain: agriculture
+2026-03-14 05:12:21 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'agriculture', 'keywords': ['farmer', 'tamil', 'nadu', 'need', 'crop', 'welfare', 'schemes'], 'entities': {'state': 'tamil nadu'}, 'original_query': 'I am a farmer in Tamil Nadu. I need crop welfare schemes.'}
+2026-03-14 05:12:21 | INFO     | agents.matcher_agent:find_relevant_schemes:166 - Intent analysis - Domain: agriculture, Category: agriculture
+2026-03-14 05:12:21 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'agriculture', 'keywords': ['farmer', 'tamil', 'nadu', 'need', 'crop', 'welfare', 'schemes'], 'entities': {'state': 'tamil nadu'}, 'original_query': 'I am a farmer in Tamil Nadu. I need crop welfare schemes.'}
+2026-03-14 05:12:25 | INFO     | agents.matcher_agent:apply_domain_filtering:272 - Domain filter (agriculture): kept 15 schemes
+2026-03-14 05:12:25 | INFO     | agents.matcher_agent:find_relevant_schemes:208 - Returning 5 relevant schemes for domain 'agriculture'
+2026-03-14 05:12:25 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from kesavankesavan73907@gmail.com
+2026-03-14 05:36:07 | INFO     | database.scheme_loader:load_from_json:20 - Loaded 200 schemes from JSON
+2026-03-14 05:36:09 | ERROR    | database.mongo_handler:add_schemes_bulk:60 - Error bulk adding schemes: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: scheme_navigator.schemes index: scheme_id_1 dup key: { scheme_id: "pm_kisan_001" }', 'keyPattern': {'scheme_id': 1}, 'keyValue': {'scheme_id': 'pm_kisan_001'}, 'op': {'scheme_id': 'pm_kisan_001', 'scheme_name': 'PM Kisan Samman Nidhi', 'description': 'Income support scheme for small and marginal farmers', 'ministry': 'Ministry of Agriculture and Farmers Welfare', 'category': 'Agriculture', 'state': 'Central', 'eligibility': 'Small and marginal farmers with landholding up to 2 hectares', 'beneficiaries': 'Farmers', 'benefits': '₹6000 per year in three installments', 'documents_required': ['Aadhaar Card', 'Land Records', 'Bank Account Details'], 'application_process': 'Apply online through PM Kisan portal or visit local agriculture office', 'official_url': 'https://pmkisan.gov.in', 'contact_info': 'Agriculture Department', 'helpline': '1800-123-4567', 'min_age': 18, 'max_age': 75, 'max_income': 200000, 'created_at': datetime.datetime(2026, 3, 14, 5, 36, 7, 627950), 'updated_at': datetime.datetime(2026, 3, 14, 5, 36, 7, 627950), '_id': ObjectId('69b4a66f70eff821b56ac0f5')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2026-03-14 05:36:09 | ERROR    | database.scheme_loader:save_to_database:88 - Error saving to database: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: scheme_navigator.schemes index: scheme_id_1 dup key: { scheme_id: "pm_kisan_001" }', 'keyPattern': {'scheme_id': 1}, 'keyValue': {'scheme_id': 'pm_kisan_001'}, 'op': {'scheme_id': 'pm_kisan_001', 'scheme_name': 'PM Kisan Samman Nidhi', 'description': 'Income support scheme for small and marginal farmers', 'ministry': 'Ministry of Agriculture and Farmers Welfare', 'category': 'Agriculture', 'state': 'Central', 'eligibility': 'Small and marginal farmers with landholding up to 2 hectares', 'beneficiaries': 'Farmers', 'benefits': '₹6000 per year in three installments', 'documents_required': ['Aadhaar Card', 'Land Records', 'Bank Account Details'], 'application_process': 'Apply online through PM Kisan portal or visit local agriculture office', 'official_url': 'https://pmkisan.gov.in', 'contact_info': 'Agriculture Department', 'helpline': '1800-123-4567', 'min_age': 18, 'max_age': 75, 'max_income': 200000, 'created_at': datetime.datetime(2026, 3, 14, 5, 36, 7, 627950), 'updated_at': datetime.datetime(2026, 3, 14, 5, 36, 7, 627950), '_id': ObjectId('69b4a66f70eff821b56ac0f5')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2026-03-14 05:36:19 | INFO     | database.scheme_loader:load_from_json:20 - Loaded 200 schemes from JSON
+2026-03-14 05:36:21 | ERROR    | database.mongo_handler:add_schemes_bulk:60 - Error bulk adding schemes: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: scheme_navigator.schemes index: scheme_id_1 dup key: { scheme_id: "pm_kisan_001" }', 'keyPattern': {'scheme_id': 1}, 'keyValue': {'scheme_id': 'pm_kisan_001'}, 'op': {'scheme_id': 'pm_kisan_001', 'scheme_name': 'PM Kisan Samman Nidhi', 'description': 'Income support scheme for small and marginal farmers', 'ministry': 'Ministry of Agriculture and Farmers Welfare', 'category': 'Agriculture', 'state': 'Central', 'eligibility': 'Small and marginal farmers with landholding up to 2 hectares', 'beneficiaries': 'Farmers', 'benefits': '₹6000 per year in three installments', 'documents_required': ['Aadhaar Card', 'Land Records', 'Bank Account Details'], 'application_process': 'Apply online through PM Kisan portal or visit local agriculture office', 'official_url': 'https://pmkisan.gov.in', 'contact_info': 'Agriculture Department', 'helpline': '1800-123-4567', 'min_age': 18, 'max_age': 75, 'max_income': 200000, 'created_at': datetime.datetime(2026, 3, 14, 5, 36, 19, 933745), 'updated_at': datetime.datetime(2026, 3, 14, 5, 36, 19, 933745), '_id': ObjectId('69b4a67b70eff821b56ac1bd')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2026-03-14 05:36:21 | ERROR    | database.scheme_loader:save_to_database:88 - Error saving to database: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: scheme_navigator.schemes index: scheme_id_1 dup key: { scheme_id: "pm_kisan_001" }', 'keyPattern': {'scheme_id': 1}, 'keyValue': {'scheme_id': 'pm_kisan_001'}, 'op': {'scheme_id': 'pm_kisan_001', 'scheme_name': 'PM Kisan Samman Nidhi', 'description': 'Income support scheme for small and marginal farmers', 'ministry': 'Ministry of Agriculture and Farmers Welfare', 'category': 'Agriculture', 'state': 'Central', 'eligibility': 'Small and marginal farmers with landholding up to 2 hectares', 'beneficiaries': 'Farmers', 'benefits': '₹6000 per year in three installments', 'documents_required': ['Aadhaar Card', 'Land Records', 'Bank Account Details'], 'application_process': 'Apply online through PM Kisan portal or visit local agriculture office', 'official_url': 'https://pmkisan.gov.in', 'contact_info': 'Agriculture Department', 'helpline': '1800-123-4567', 'min_age': 18, 'max_age': 75, 'max_income': 200000, 'created_at': datetime.datetime(2026, 3, 14, 5, 36, 19, 933745), 'updated_at': datetime.datetime(2026, 3, 14, 5, 36, 19, 933745), '_id': ObjectId('69b4a67b70eff821b56ac1bd')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2026-03-14 05:36:26 | INFO     | database.scheme_loader:load_from_json:20 - Loaded 200 schemes from JSON
+2026-03-14 05:36:26 | ERROR    | database.mongo_handler:add_schemes_bulk:60 - Error bulk adding schemes: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: scheme_navigator.schemes index: scheme_id_1 dup key: { scheme_id: "pm_kisan_001" }', 'keyPattern': {'scheme_id': 1}, 'keyValue': {'scheme_id': 'pm_kisan_001'}, 'op': {'scheme_id': 'pm_kisan_001', 'scheme_name': 'PM Kisan Samman Nidhi', 'description': 'Income support scheme for small and marginal farmers', 'ministry': 'Ministry of Agriculture and Farmers Welfare', 'category': 'Agriculture', 'state': 'Central', 'eligibility': 'Small and marginal farmers with landholding up to 2 hectares', 'beneficiaries': 'Farmers', 'benefits': '₹6000 per year in three installments', 'documents_required': ['Aadhaar Card', 'Land Records', 'Bank Account Details'], 'application_process': 'Apply online through PM Kisan portal or visit local agriculture office', 'official_url': 'https://pmkisan.gov.in', 'contact_info': 'Agriculture Department', 'helpline': '1800-123-4567', 'min_age': 18, 'max_age': 75, 'max_income': 200000, 'created_at': datetime.datetime(2026, 3, 14, 5, 36, 26, 80171), 'updated_at': datetime.datetime(2026, 3, 14, 5, 36, 26, 80171), '_id': ObjectId('69b4a68270eff821b56ac285')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2026-03-14 05:36:26 | ERROR    | database.scheme_loader:save_to_database:88 - Error saving to database: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: scheme_navigator.schemes index: scheme_id_1 dup key: { scheme_id: "pm_kisan_001" }', 'keyPattern': {'scheme_id': 1}, 'keyValue': {'scheme_id': 'pm_kisan_001'}, 'op': {'scheme_id': 'pm_kisan_001', 'scheme_name': 'PM Kisan Samman Nidhi', 'description': 'Income support scheme for small and marginal farmers', 'ministry': 'Ministry of Agriculture and Farmers Welfare', 'category': 'Agriculture', 'state': 'Central', 'eligibility': 'Small and marginal farmers with landholding up to 2 hectares', 'beneficiaries': 'Farmers', 'benefits': '₹6000 per year in three installments', 'documents_required': ['Aadhaar Card', 'Land Records', 'Bank Account Details'], 'application_process': 'Apply online through PM Kisan portal or visit local agriculture office', 'official_url': 'https://pmkisan.gov.in', 'contact_info': 'Agriculture Department', 'helpline': '1800-123-4567', 'min_age': 18, 'max_age': 75, 'max_income': 200000, 'created_at': datetime.datetime(2026, 3, 14, 5, 36, 26, 80171), 'updated_at': datetime.datetime(2026, 3, 14, 5, 36, 26, 80171), '_id': ObjectId('69b4a68270eff821b56ac285')}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2026-03-14 05:42:56 | SUCCESS  | database.mongo_handler:connect:26 - Connected to MongoDB: scheme_navigator
+2026-03-14 05:43:11 | INFO     | database.mongo_handler:add_user:129 - User added/updated: admin@example.com
+2026-03-14 05:43:11 | INFO     | __main__:admin_login:63 - Admin logged in: admin@example.com
+2026-03-14 05:43:29 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pm_kisan_001
+2026-03-14 05:43:29 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pmfby_002
+2026-03-14 05:43:29 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pmkmy_003
+2026-03-14 05:43:29 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: miss_004
+2026-03-14 05:43:29 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: aif_005
+2026-03-14 05:43:30 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: fpo_006
+2026-03-14 05:43:30 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: nbhm_007
+2026-03-14 05:43:30 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: namo_drone_008
+2026-03-14 05:43:30 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: nmnf_009
+2026-03-14 05:43:30 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pm_aasha_010
+2026-03-14 05:43:30 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: agrisure_011
+2026-03-14 05:43:30 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pdmc_012
+2026-03-14 05:43:30 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: smam_013
+2026-03-14 05:43:30 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pkv_014
+2026-03-14 05:43:31 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: shf_015
+2026-03-14 05:43:31 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: rad_016
+2026-03-14 05:43:31 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: agroforestry_017
+2026-03-14 05:43:31 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: cdp_018
+2026-03-14 05:43:31 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: smae_019
+2026-03-14 05:43:31 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: smsp_020
+2026-03-14 05:43:31 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: nfsnm_021
+2026-03-14 05:43:31 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: isam_022
+2026-03-14 05:43:31 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: midh_023
+2026-03-14 05:43:31 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: nmeo_oilpalm_024
+2026-03-14 05:43:32 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: nmeo_oilseeds_025
+2026-03-14 05:43:32 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: movcdnr_026
+2026-03-14 05:43:32 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: digital_agri_027
+2026-03-14 05:43:32 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: bamboo_028
+2026-03-14 05:43:32 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pmegp_029
+2026-03-14 05:43:32 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pm_vishwakarma_030
+2026-03-14 05:43:33 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: startup_india_031
+2026-03-14 05:43:33 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pmjay_032
+2026-03-14 05:43:33 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pmuy_033
+2026-03-14 05:43:33 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pm_svanidhi_034
+2026-03-14 05:43:33 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pmjdy_035
+2026-03-14 05:43:33 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pmmu_036
+2026-03-14 05:43:34 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: day_nrlm_037
+2026-03-14 05:43:34 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: standup_india_038
+2026-03-14 05:43:34 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: cegssc_039
+2026-03-14 05:43:34 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: vcf_sc_obc_040
+2026-03-14 05:43:34 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: nsfdc_041
+2026-03-14 05:43:34 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: asiim_042
+2026-03-14 05:43:34 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pmdaksh_043
+2026-03-14 05:43:34 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pmajay_044
+2026-03-14 05:43:34 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: namaste_045
+2026-03-14 05:43:35 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: seed_046
+2026-03-14 05:43:35 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: scholarship_sc_047
+2026-03-14 05:43:35 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: smes_048
+2026-03-14 05:43:35 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pmvishwakarma_049
+2026-03-14 05:43:35 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: mkvy_050
+2026-03-14 05:43:35 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: abry_051
+2026-03-14 05:43:35 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pmrp_052
+2026-03-14 05:43:35 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: ncs_053
+2026-03-14 05:43:35 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: eli_054
+2026-03-14 05:43:36 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pmgkra_055
+2026-03-14 05:43:36 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: mgnrega_056
+2026-03-14 05:43:36 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: ddugky_057
+2026-03-14 05:43:36 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: rseti_058
+2026-03-14 05:43:36 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: day_nulm_059
+2026-03-14 05:43:36 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pmkvy4_060
+2026-03-14 05:43:36 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: naps_061
+2026-03-14 05:43:36 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pli_062
+2026-03-14 05:43:37 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pm_gatishakti_063
+2026-03-14 05:43:38 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: future_skills_064
+2026-03-14 05:43:39 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: shreshta_065
+2026-03-14 05:43:39 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: nadda_066
+2026-03-14 05:43:39 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: avyay_067
+2026-03-14 05:43:40 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: smile_068
+2026-03-14 05:43:40 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pm_yasasvi_069
+2026-03-14 05:43:41 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: nsp_070
+2026-03-14 05:43:41 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pm_kisan_001
+2026-03-14 05:43:41 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pmay_g_071
+2026-03-14 05:43:41 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pmfby_002
+2026-03-14 05:43:41 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pmay_u_072
+2026-03-14 05:43:41 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pmkmy_003
+2026-03-14 05:43:42 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: miss_004
+2026-03-14 05:43:42 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: sbm_g_073
+2026-03-14 05:43:42 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: aif_005
+2026-03-14 05:43:42 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: sbm_u_074
+2026-03-14 05:43:42 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: fpo_006
+2026-03-14 05:43:42 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: nhpm_075
+2026-03-14 05:43:42 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: nbhm_007
+2026-03-14 05:43:42 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: nhm_076
+2026-03-14 05:43:42 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: namo_drone_008
+2026-03-14 05:43:42 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: icds_077
+2026-03-14 05:43:43 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: nmnf_009
+2026-03-14 05:43:43 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pmposhan_078
+2026-03-14 05:43:43 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: bbbp_079
+2026-03-14 05:43:43 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pm_aasha_010
+2026-03-14 05:43:43 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: apy_080
+2026-03-14 05:43:43 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: agrisure_011
+2026-03-14 05:43:43 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pmsym_081
+2026-03-14 05:43:44 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pdmc_012
+2026-03-14 05:43:44 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pmgsy_082
+2026-03-14 05:43:44 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: smam_013
+2026-03-14 05:43:44 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pmksy_083
+2026-03-14 05:43:44 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pkv_014
+2026-03-14 05:43:44 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: apy_084
+2026-03-14 05:43:44 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: shf_015
+2026-03-14 05:43:45 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: sag_y_085
+2026-03-14 05:43:45 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: rad_016
+2026-03-14 05:43:45 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: vdy_086
+2026-03-14 05:43:45 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: agroforestry_017
+2026-03-14 05:43:45 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: svamitva_087
+2026-03-14 05:43:45 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: cdp_018
+2026-03-14 05:43:45 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pmsby_088
+2026-03-14 05:43:45 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: smae_019
+2026-03-14 05:43:45 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pmjjy_089
+2026-03-14 05:43:45 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: smsp_020
+2026-03-14 05:43:45 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: kvp_090
+2026-03-14 05:43:45 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: nfsnm_021
+2026-03-14 05:43:45 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: digital_india_091
+2026-03-14 05:43:45 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: isam_022
+2026-03-14 05:43:45 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: prasad_092
+2026-03-14 05:43:45 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: midh_023
+2026-03-14 05:43:47 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: atmanirbhar_093
+2026-03-14 05:43:47 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: nmeo_oilpalm_024
+2026-03-14 05:43:47 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: nmeo_oilseeds_025
+2026-03-14 05:43:47 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: ndhm_094
+2026-03-14 05:43:47 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: movcdnr_026
+2026-03-14 05:43:47 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pmasby_095
+2026-03-14 05:43:47 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: digital_agri_027
+2026-03-14 05:43:47 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: nip_096
+2026-03-14 05:43:47 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: bamboo_028
+2026-03-14 05:43:47 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: gkra_097
+2026-03-14 05:43:47 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pmegp_029
+2026-03-14 05:43:47 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: u_ss_098
+2026-03-14 05:43:47 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pm_vishwakarma_030
+2026-03-14 05:43:47 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pmssy_099
+2026-03-14 05:43:47 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: startup_india_031
+2026-03-14 05:43:47 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: egov_100
+2026-03-14 05:43:47 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pmjay_032
+2026-03-14 05:43:47 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: make_in_india_101
+2026-03-14 05:43:48 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pmuy_033
+2026-03-14 05:43:48 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: swachh_bharat_102
+2026-03-14 05:43:48 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pm_svanidhi_034
+2026-03-14 05:43:48 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: gms_103
+2026-03-14 05:43:48 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pmjdy_035
+2026-03-14 05:43:48 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pmcares_104
+2026-03-14 05:43:48 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pmmu_036
+2026-03-14 05:43:48 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: aarogya_setu_105
+2026-03-14 05:43:48 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: day_nrlm_037
+2026-03-14 05:43:48 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: bharatnet_106
+2026-03-14 05:43:48 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: standup_india_038
+2026-03-14 05:43:48 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: mplads_107
+2026-03-14 05:43:48 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: cegssc_039
+2026-03-14 05:43:48 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: ippb_108
+2026-03-14 05:43:48 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: vcf_sc_obc_040
+2026-03-14 05:43:48 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: psf_109
+2026-03-14 05:43:48 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: nsfdc_041
+2026-03-14 05:43:48 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: eksvy_110
+2026-03-14 05:43:49 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: asiim_042
+2026-03-14 05:43:49 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: meity_111
+2026-03-14 05:43:49 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pmdaksh_043
+2026-03-14 05:43:49 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: nczmp_112
+2026-03-14 05:43:49 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pmajay_044
+2026-03-14 05:43:49 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: recap_psb_113
+2026-03-14 05:43:49 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: namaste_045
+2026-03-14 05:43:49 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: sampada_114
+2026-03-14 05:43:49 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: seed_046
+2026-03-14 05:43:49 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: police_infra_115
+2026-03-14 05:43:49 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: scholarship_sc_047
+2026-03-14 05:43:49 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: nmms_116
+2026-03-14 05:43:49 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: smes_048
+2026-03-14 05:43:49 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: girl_child_117
+2026-03-14 05:43:49 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pmvishwakarma_049
+2026-03-14 05:43:49 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: is_ed_loan_118
+2026-03-14 05:43:49 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: mkvy_050
+2026-03-14 05:43:49 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: ugc_scholarship_119
+2026-03-14 05:43:50 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: abry_051
+2026-03-14 05:43:50 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: labour_welfare_120
+2026-03-14 05:43:50 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pmrp_052
+2026-03-14 05:43:50 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: credit_support_121
+2026-03-14 05:43:50 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: ncs_053
+2026-03-14 05:43:50 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: panchayat_capacity_122
+2026-03-14 05:43:50 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: eli_054
+2026-03-14 05:43:50 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: ddugjy_123
+2026-03-14 05:43:50 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pmgkra_055
+2026-03-14 05:43:50 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: ipds_124
+2026-03-14 05:43:50 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: mgnrega_056
+2026-03-14 05:43:50 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: rail_new_lines_125
+2026-03-14 05:43:50 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: ddugky_057
+2026-03-14 05:43:50 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: road_safety_126
+2026-03-14 05:43:50 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: rseti_058
+2026-03-14 05:43:50 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: nfsc_127
+2026-03-14 05:43:50 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: day_nulm_059
+2026-03-14 05:43:50 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: adip_128
+2026-03-14 05:43:51 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pmkvy4_060
+2026-03-14 05:43:51 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: atufs_129
+2026-03-14 05:43:51 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: naps_061
+2026-03-14 05:43:51 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pmprpy_130
+2026-03-14 05:43:51 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pli_062
+2026-03-14 05:43:51 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: rosl_131
+2026-03-14 05:43:51 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pm_gatishakti_063
+2026-03-14 05:43:51 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: swadesh_darshan_132
+2026-03-14 05:43:51 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: future_skills_064
+2026-03-14 05:43:51 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: nfst_133
+2026-03-14 05:43:51 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: shreshta_065
+2026-03-14 05:43:51 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: sports_excellence_134
+2026-03-14 05:43:51 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: nadda_066
+2026-03-14 05:43:51 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: khelo_india_135
+2026-03-14 05:43:51 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: avyay_067
+2026-03-14 05:43:51 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: nfsa_136
+2026-03-14 05:43:51 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: smile_068
+2026-03-14 05:43:51 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: nsap_core_137
+2026-03-14 05:43:52 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: aids_control_138
+2026-03-14 05:43:52 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pm_yasasvi_069
+2026-03-14 05:43:52 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: family_welfare_139
+2026-03-14 05:43:52 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: nsp_070
+2026-03-14 05:43:52 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: duty_drawback_140
+2026-03-14 05:43:52 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pmay_g_071
+2026-03-14 05:43:52 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: interest_equal_141
+2026-03-14 05:43:52 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pmay_u_072
+2026-03-14 05:43:52 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pmcares_children_142
+2026-03-14 05:43:52 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: sbm_g_073
+2026-03-14 05:43:52 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: free_coaching_sc_143
+2026-03-14 05:43:52 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: sbm_u_074
+2026-03-14 05:43:52 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: shreyas_144
+2026-03-14 05:43:52 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: nhpm_075
+2026-03-14 05:43:52 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: top_class_obc_145
+2026-03-14 05:43:52 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: nhm_076
+2026-03-14 05:43:52 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: nskfdc_146
+2026-03-14 05:43:52 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: icds_077
+2026-03-14 05:43:53 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: seed_dnt_147
+2026-03-14 05:43:53 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pmposhan_078
+2026-03-14 05:43:53 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: geriatric_care_148
+2026-03-14 05:43:53 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: bbbp_079
+2026-03-14 05:43:53 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pcra_poa_149
+2026-03-14 05:43:53 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: apy_080
+2026-03-14 05:43:53 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: imesa_150
+2026-03-14 05:43:53 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pmsym_081
+2026-03-14 05:43:53 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: ddky_151
+2026-03-14 05:43:53 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pmgsy_082
+2026-03-14 05:43:53 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: digital_agristack_152
+2026-03-14 05:43:53 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pmksy_083
+2026-03-14 05:43:53 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: kisan_e_mitra_153
+2026-03-14 05:43:53 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: apy_084
+2026-03-14 05:43:53 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: npss_154
+2026-03-14 05:43:53 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: sag_y_085
+2026-03-14 05:43:53 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: sathi_155
+2026-03-14 05:43:53 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: vdy_086
+2026-03-14 05:43:54 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: nmsa_156
+2026-03-14 05:43:54 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: svamitva_087
+2026-03-14 05:43:54 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pdmc_157
+2026-03-14 05:43:54 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pmsby_088
+2026-03-14 05:43:54 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: ab_pmjay_senior_158
+2026-03-14 05:43:54 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pmjjy_089
+2026-03-14 05:43:54 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pm_abhim_159
+2026-03-14 05:43:54 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: kvp_090
+2026-03-14 05:43:54 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: abdm_160
+2026-03-14 05:43:54 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: digital_india_091
+2026-03-14 05:43:54 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: hrhme_161
+2026-03-14 05:43:54 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: prasad_092
+2026-03-14 05:43:54 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: icmr_research_162
+2026-03-14 05:43:54 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: atmanirbhar_093
+2026-03-14 05:43:54 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: cgtmse_women_163
+2026-03-14 05:43:54 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: ndhm_094
+2026-03-14 05:43:54 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: sfurti_164
+2026-03-14 05:43:54 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pmasby_095
+2026-03-14 05:43:55 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: mahila_coir_165
+2026-03-14 05:43:55 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: nip_096
+2026-03-14 05:43:55 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pms_procurement_166
+2026-03-14 05:43:55 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: gkra_097
+2026-03-14 05:43:55 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: yashasvini_167
+2026-03-14 05:43:55 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: u_ss_098
+2026-03-14 05:43:55 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: smile_beggary_168
+2026-03-14 05:43:55 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pmssy_099
+2026-03-14 05:43:55 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: garima_greh_169
+2026-03-14 05:43:55 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: egov_100
+2026-03-14 05:43:55 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pm_daksh_170
+2026-03-14 05:43:55 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: make_in_india_101
+2026-03-14 05:43:55 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: she_mart_171
+2026-03-14 05:43:55 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: swachh_bharat_102
+2026-03-14 05:43:55 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: bharat_vistaar_172
+2026-03-14 05:43:55 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: gms_103
+2026-03-14 05:43:55 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: hv_crops_173
+2026-03-14 05:43:55 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pmcares_104
+2026-03-14 05:43:55 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: lakhpati_didi_174
+2026-03-14 05:43:56 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: aarogya_setu_105
+2026-03-14 05:43:56 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: dbt_26_175
+2026-03-14 05:43:56 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: bharatnet_106
+2026-03-14 05:43:56 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: apbs_rrb_176
+2026-03-14 05:43:56 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: mplads_107
+2026-03-14 05:43:56 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: mplads_177
+2026-03-14 05:43:56 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: ippb_108
+2026-03-14 05:43:56 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: nasp_178
+2026-03-14 05:43:57 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: crop_insurance_179
+2026-03-14 05:43:57 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: psf_109
+2026-03-14 05:43:57 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: duty_drawback_180
+2026-03-14 05:43:57 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: eksvy_110
+2026-03-14 05:43:57 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: interest_equal_181
+2026-03-14 05:43:57 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: meity_111
+2026-03-14 05:43:57 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: nczmp_112
+2026-03-14 05:43:57 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: ippb_182
+2026-03-14 05:43:57 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: recap_psb_113
+2026-03-14 05:43:57 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: psf_183
+2026-03-14 05:43:57 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: sampada_114
+2026-03-14 05:43:57 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: eksvy_184
+2026-03-14 05:43:57 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: meity_185
+2026-03-14 05:43:57 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: police_infra_115
+2026-03-14 05:43:57 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: nmms_116
+2026-03-14 05:43:57 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: nczmp_186
+2026-03-14 05:43:57 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pmmu_187
+2026-03-14 05:43:57 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: girl_child_117
+2026-03-14 05:43:58 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: is_ed_loan_118
+2026-03-14 05:43:58 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: recap_psb_188
+2026-03-14 05:43:58 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: ugc_scholarship_119
+2026-03-14 05:43:58 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: standup_india_189
+2026-03-14 05:43:58 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: sampada_190
+2026-03-14 05:43:58 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: labour_welfare_120
+2026-03-14 05:43:58 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: family_welfare_191
+2026-03-14 05:43:58 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: credit_support_121
+2026-03-14 05:43:58 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: pmssy_192
+2026-03-14 05:43:58 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: panchayat_capacity_122
+2026-03-14 05:43:58 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: police_infra_193
+2026-03-14 05:43:58 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: ddugjy_123
+2026-03-14 05:43:58 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: nmms_194
+2026-03-14 05:43:58 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: ipds_124
+2026-03-14 05:43:58 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: girl_child_195
+2026-03-14 05:43:58 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: rail_new_lines_125
+2026-03-14 05:43:58 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: is_ed_loan_196
+2026-03-14 05:43:58 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: road_safety_126
+2026-03-14 05:43:58 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: ugc_scholarship_197
+2026-03-14 05:43:59 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: nfsc_127
+2026-03-14 05:43:59 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: labour_welfare_198
+2026-03-14 05:43:59 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: adip_128
+2026-03-14 05:43:59 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: credit_support_199
+2026-03-14 05:43:59 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: atufs_129
+2026-03-14 05:43:59 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: panchayat_capacity_200
+2026-03-14 05:43:59 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pmprpy_130
+2026-03-14 05:43:59 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: rosl_131
+2026-03-14 05:43:59 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: swadesh_darshan_132
+2026-03-14 05:43:59 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: nfst_133
+2026-03-14 05:43:59 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: sports_excellence_134
+2026-03-14 05:43:59 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: khelo_india_135
+2026-03-14 05:44:00 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: nfsa_136
+2026-03-14 05:44:00 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: nsap_core_137
+2026-03-14 05:44:00 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: aids_control_138
+2026-03-14 05:44:00 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: family_welfare_139
+2026-03-14 05:44:00 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: duty_drawback_140
+2026-03-14 05:44:00 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: interest_equal_141
+2026-03-14 05:44:00 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pmcares_children_142
+2026-03-14 05:44:00 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: free_coaching_sc_143
+2026-03-14 05:44:00 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: shreyas_144
+2026-03-14 05:44:01 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: top_class_obc_145
+2026-03-14 05:44:01 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: nskfdc_146
+2026-03-14 05:44:01 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: seed_dnt_147
+2026-03-14 05:44:01 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: geriatric_care_148
+2026-03-14 05:44:01 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pcra_poa_149
+2026-03-14 05:44:01 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: imesa_150
+2026-03-14 05:44:01 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: ddky_151
+2026-03-14 05:44:01 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: digital_agristack_152
+2026-03-14 05:44:01 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: kisan_e_mitra_153
+2026-03-14 05:44:02 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: npss_154
+2026-03-14 05:44:02 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: sathi_155
+2026-03-14 05:44:02 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: nmsa_156
+2026-03-14 05:44:02 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pdmc_157
+2026-03-14 05:44:02 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: ab_pmjay_senior_158
+2026-03-14 05:44:02 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pm_abhim_159
+2026-03-14 05:44:02 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: abdm_160
+2026-03-14 05:44:02 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: hrhme_161
+2026-03-14 05:44:02 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: icmr_research_162
+2026-03-14 05:44:02 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: cgtmse_women_163
+2026-03-14 05:44:03 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: sfurti_164
+2026-03-14 05:44:03 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: mahila_coir_165
+2026-03-14 05:44:03 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pms_procurement_166
+2026-03-14 05:44:03 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: yashasvini_167
+2026-03-14 05:44:03 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: smile_beggary_168
+2026-03-14 05:44:04 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: garima_greh_169
+2026-03-14 05:44:04 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pm_daksh_170
+2026-03-14 05:44:04 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: she_mart_171
+2026-03-14 05:44:04 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: bharat_vistaar_172
+2026-03-14 05:44:04 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: hv_crops_173
+2026-03-14 05:44:04 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: lakhpati_didi_174
+2026-03-14 05:44:04 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: dbt_26_175
+2026-03-14 05:44:05 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: apbs_rrb_176
+2026-03-14 05:44:05 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: mplads_177
+2026-03-14 05:44:05 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: nasp_178
+2026-03-14 05:44:05 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: crop_insurance_179
+2026-03-14 05:44:05 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: duty_drawback_180
+2026-03-14 05:44:05 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: interest_equal_181
+2026-03-14 05:44:05 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: ippb_182
+2026-03-14 05:44:05 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: psf_183
+2026-03-14 05:44:05 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: eksvy_184
+2026-03-14 05:44:06 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: meity_185
+2026-03-14 05:44:06 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: nczmp_186
+2026-03-14 05:44:06 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pmmu_187
+2026-03-14 05:44:06 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: recap_psb_188
+2026-03-14 05:44:06 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: standup_india_189
+2026-03-14 05:44:06 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: sampada_190
+2026-03-14 05:44:06 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: family_welfare_191
+2026-03-14 05:44:06 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: pmssy_192
+2026-03-14 05:44:06 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: police_infra_193
+2026-03-14 05:44:07 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: nmms_194
+2026-03-14 05:44:07 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: girl_child_195
+2026-03-14 05:44:07 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: is_ed_loan_196
+2026-03-14 05:44:07 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: ugc_scholarship_197
+2026-03-14 05:44:07 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: labour_welfare_198
+2026-03-14 05:44:07 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: credit_support_199
+2026-03-14 05:44:08 | INFO     | admin.upload_json:upsert_schemes_to_database:162 - Updated scheme: panchayat_capacity_200
+2026-03-14 05:44:08 | INFO     | admin.upload_json:render_json_upload:95 - JSON upload: 0 added, 200 updated
+2026-03-14 05:44:52 | INFO     | agents.matcher_agent:detect_query_domain:142 - Detected domain: education
+2026-03-14 05:44:52 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'education', 'keywords': ['student', 'tamilnadu'], 'entities': {}, 'original_query': 'i am a student in tamilnadu'}
+2026-03-14 05:44:52 | INFO     | agents.matcher_agent:find_relevant_schemes:166 - Intent analysis - Domain: education, Category: education
+2026-03-14 05:44:52 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'education', 'keywords': ['student', 'tamilnadu'], 'entities': {}, 'original_query': 'i am a student in tamilnadu'}
+2026-03-14 05:44:58 | INFO     | agents.matcher_agent:apply_domain_filtering:272 - Domain filter (education): kept 15 schemes
+2026-03-14 05:44:58 | INFO     | agents.matcher_agent:find_relevant_schemes:208 - Returning 5 relevant schemes for domain 'education'
+2026-03-14 05:44:58 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from kesavankesavan73907@gmail.com
+2026-03-14 05:45:30 | INFO     | agents.matcher_agent:detect_query_domain:142 - Detected domain: women
+2026-03-14 05:45:30 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'general', 'keywords': ['tamilnadu', 'womens', 'schemes'], 'entities': {}, 'original_query': 'tamilnadu womens schemes'}
+2026-03-14 05:45:30 | INFO     | agents.matcher_agent:find_relevant_schemes:166 - Intent analysis - Domain: women, Category: general
+2026-03-14 05:45:30 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'general', 'keywords': ['tamilnadu', 'womens', 'schemes'], 'entities': {}, 'original_query': 'tamilnadu womens schemes'}
+2026-03-14 05:45:39 | INFO     | agents.matcher_agent:apply_domain_filtering:272 - Domain filter (women): kept 15 schemes
+2026-03-14 05:45:39 | INFO     | agents.matcher_agent:find_relevant_schemes:208 - Returning 5 relevant schemes for domain 'women'
+2026-03-14 05:45:39 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from kesavankesavan73907@gmail.com
+2026-03-14 05:50:56 | INFO     | agents.matcher_agent:detect_query_domain:142 - Detected domain: education
+2026-03-14 05:50:56 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'education', 'keywords': ['student', 'tamilnadu'], 'entities': {}, 'original_query': 'i am a student in tamilnadu'}
+2026-03-14 05:50:56 | INFO     | agents.matcher_agent:find_relevant_schemes:166 - Intent analysis - Domain: education, Category: education
+2026-03-14 05:50:56 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'education', 'keywords': ['student', 'tamilnadu'], 'entities': {}, 'original_query': 'i am a student in tamilnadu'}
+2026-03-14 05:51:05 | INFO     | agents.matcher_agent:apply_domain_filtering:272 - Domain filter (education): kept 15 schemes
+2026-03-14 05:51:06 | INFO     | agents.matcher_agent:find_relevant_schemes:208 - Returning 5 relevant schemes for domain 'education'
+2026-03-14 05:51:06 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from kesavankesavan73907@gmail.com
+2026-03-14 05:52:06 | INFO     | agents.matcher_agent:detect_query_domain:142 - Detected domain: education
+2026-03-14 05:52:06 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'education', 'keywords': ['student', 'tamilnadu'], 'entities': {}, 'original_query': 'i am a student in tamilnadu'}
+2026-03-14 05:52:06 | INFO     | agents.matcher_agent:find_relevant_schemes:166 - Intent analysis - Domain: education, Category: education
+2026-03-14 05:52:06 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'education', 'keywords': ['student', 'tamilnadu'], 'entities': {}, 'original_query': 'i am a student in tamilnadu'}
+2026-03-14 05:52:15 | INFO     | agents.matcher_agent:apply_domain_filtering:272 - Domain filter (education): kept 15 schemes
+2026-03-14 05:52:15 | INFO     | agents.matcher_agent:find_relevant_schemes:208 - Returning 5 relevant schemes for domain 'education'
+2026-03-14 05:52:15 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from kesavankesavan73907@gmail.com
+2026-03-14 05:58:00 | INFO     | agents.matcher_agent:detect_query_domain:142 - Detected domain: education
+2026-03-14 05:58:00 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'education', 'keywords': ['student', 'tamilnadu'], 'entities': {}, 'original_query': 'i am a student in tamilnadu'}
+2026-03-14 05:58:00 | INFO     | agents.matcher_agent:find_relevant_schemes:166 - Intent analysis - Domain: education, Category: education
+2026-03-14 05:58:00 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'education', 'keywords': ['student', 'tamilnadu'], 'entities': {}, 'original_query': 'i am a student in tamilnadu'}
+2026-03-14 05:58:21 | INFO     | agents.matcher_agent:apply_domain_filtering:272 - Domain filter (education): kept 15 schemes
+2026-03-14 05:58:21 | INFO     | agents.matcher_agent:find_relevant_schemes:208 - Returning 5 relevant schemes for domain 'education'
+2026-03-14 05:58:21 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from kesavankesavan73907@gmail.com
+2026-03-14 05:58:46 | INFO     | database.mongo_handler:add_user:129 - User added/updated: kesavankesavan73907@gmail.com
+2026-03-14 05:58:52 | INFO     | agents.matcher_agent:detect_query_domain:142 - Detected domain: education
+2026-03-14 05:58:52 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'education', 'keywords': ['student', 'tamilnadu'], 'entities': {}, 'original_query': 'i am a student in tamilnadu'}
+2026-03-14 05:58:52 | INFO     | agents.matcher_agent:find_relevant_schemes:166 - Intent analysis - Domain: education, Category: education
+2026-03-14 05:58:52 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'education', 'keywords': ['student', 'tamilnadu'], 'entities': {}, 'original_query': 'i am a student in tamilnadu'}
+2026-03-14 05:59:01 | INFO     | agents.matcher_agent:apply_domain_filtering:272 - Domain filter (education): kept 15 schemes
+2026-03-14 05:59:01 | INFO     | agents.matcher_agent:find_relevant_schemes:208 - Returning 5 relevant schemes for domain 'education'
+2026-03-14 05:59:01 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from kesavankesavan73907@gmail.com
+2026-03-14 06:02:49 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'general', 'keywords': ['pradhan', 'mantri', 'yojana'], 'entities': {}, 'original_query': 'Pradhan Mantri Yojana'}
+2026-03-14 06:02:49 | INFO     | agents.matcher_agent:find_relevant_schemes:166 - Intent analysis - Domain: general, Category: general
+2026-03-14 06:02:49 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'general', 'keywords': ['pradhan', 'mantri', 'yojana'], 'entities': {}, 'original_query': 'Pradhan Mantri Yojana'}
+2026-03-14 06:02:57 | INFO     | agents.matcher_agent:find_relevant_schemes:208 - Returning 5 relevant schemes for domain 'general'
+2026-03-14 06:02:58 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from kesavankesavan73907@gmail.com
+2026-03-14 06:29:37 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_kmut_001
+2026-03-14 06:29:37 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_vp_002
+2026-03-14 06:29:38 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_pm_003
+2026-03-14 06:29:38 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_tp_004
+2026-03-14 06:29:38 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_nm_005
+2026-03-14 06:29:38 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_cmb_006
+2026-03-14 06:29:39 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_itk_007
+2026-03-14 06:29:39 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_kk_008
+2026-03-14 06:29:39 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_ee_009
+2026-03-14 06:29:39 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_mtm_010
+2026-03-14 06:29:40 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_ik48_011
+2026-03-14 06:29:41 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_nks_012
+2026-03-14 06:29:41 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_cmchis_013
+2026-03-14 06:29:41 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_drmbs_014
+2026-03-14 06:29:41 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_cmm_015
+2026-03-14 06:29:41 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_hpv_016
+2026-03-14 06:29:42 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_thai_017
+2026-03-14 06:29:42 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_cmsphs_018
+2026-03-14 06:29:43 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_mlacds_019
+2026-03-14 06:29:43 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_tnrris_020
+2026-03-14 06:29:43 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_taps_021
+2026-03-14 06:29:44 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_mt_022
+2026-03-14 06:29:44 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_sss_023
+2026-03-14 06:29:45 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_cvc_024
+2026-03-14 06:29:45 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_sedp_025
+2026-03-14 06:29:45 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_riscw_026
+2026-03-14 06:29:46 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_eslse_027
+2026-03-14 06:29:46 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_ridf_028
+2026-03-14 06:29:46 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_pas_029
+2026-03-14 06:29:47 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_kkc_030
+2026-03-14 06:29:47 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_mm_031
+2026-03-14 06:29:48 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_tms_032
+2026-03-14 06:29:48 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_laptop_033
+2026-03-14 06:29:48 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_pkcds_034
+2026-03-14 06:29:48 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_7.5res_035
+2026-03-14 06:29:49 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_up_036
+2026-03-14 06:29:49 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_mmudhalvar_037
+2026-03-14 06:29:49 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_mp_038
+2026-03-14 06:29:50 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_tsm2030_039
+2026-03-14 06:29:50 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_cast_040
+2026-03-14 06:29:51 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_knmt_041
+2026-03-14 06:29:51 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_amrut_042
+2026-03-14 06:29:51 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_nn_043
+2026-03-14 06:29:52 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_tues_044
+2026-03-14 06:29:52 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_ippd_045
+2026-03-14 06:29:52 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_tunrip_046
+2026-03-14 06:29:53 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_nsmt_047
+2026-03-14 06:29:53 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_omdgf_048
+2026-03-14 06:29:53 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_15fc_049
+2026-03-14 06:29:54 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_sbm_050
+2026-03-14 06:29:54 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_led_051
+2026-03-14 06:29:54 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_thayumanavar_052
+2026-03-14 06:29:55 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_ssp_053
+2026-03-14 06:29:55 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_adw_054
+2026-03-14 06:29:56 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_rmp_055
+2026-03-14 06:29:56 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_metrorail_056
+2026-03-14 06:29:56 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_nrm_057
+2026-03-14 06:29:57 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_cmt_058
+2026-03-14 06:29:57 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_dwd_059
+2026-03-14 06:29:57 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_lib_060
+2026-03-14 06:29:58 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_ibf_061
+2026-03-14 06:29:58 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_kcl_062
+2026-03-14 06:29:59 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_ce_063
+2026-03-14 06:29:59 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_au_064
+2026-03-14 06:29:59 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_minority_065
+2026-03-14 06:30:00 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_study_066
+2026-03-14 06:30:00 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_hmc_067
+2026-03-14 06:30:01 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_cmspaces_068
+2026-03-14 06:30:01 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_energy_069
+2026-03-14 06:30:01 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_tourism_070
+2026-03-14 06:30:02 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_water_071
+2026-03-14 06:30:02 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_highways_072
+2026-03-14 06:30:03 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_tourism_h_073
+2026-03-14 06:30:03 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_ecotourism_074
+2026-03-14 06:30:04 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_solar_075
+2026-03-14 06:30:04 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_wind_076
+2026-03-14 06:30:05 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_horti_077
+2026-03-14 06:30:05 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_organic_078
+2026-03-14 06:30:06 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_fisheries_079
+2026-03-14 06:30:06 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_aquaculture_080
+2026-03-14 06:30:06 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_dairy_081
+2026-03-14 06:30:06 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_poultry_082
+2026-03-14 06:30:07 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_vet_083
+2026-03-14 06:30:07 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_cow_084
+2026-03-14 06:30:07 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_skill_085
+2026-03-14 06:30:07 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_apprentice_086
+2026-03-14 06:30:08 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_handloom_087
+2026-03-14 06:30:08 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_powerloom_088
+2026-03-14 06:30:10 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_khadi_089
+2026-03-14 06:30:10 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_artisan_090
+2026-03-14 06:30:11 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_ssi_091
+2026-03-14 06:30:11 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_tiic_092
+2026-03-14 06:30:12 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_sidco_093
+2026-03-14 06:30:12 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_export_094
+2026-03-14 06:30:12 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_startup_095
+2026-03-14 06:30:13 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_innovation_096
+2026-03-14 06:30:13 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_foodprocessing_097
+2026-03-14 06:30:14 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_coldstorage_098
+2026-03-14 06:30:15 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_warehouse_099
+2026-03-14 06:30:15 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_mktg_100
+2026-03-14 06:30:16 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_ufs_101
+2026-03-14 06:30:17 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_awm_102
+2026-03-14 06:30:17 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_clean_103
+2026-03-14 06:30:17 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_green_104
+2026-03-14 06:30:17 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_climate_105
+2026-03-14 06:30:18 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_yr_106
+2026-03-14 06:30:19 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_ncc_107
+2026-03-14 06:30:20 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_nss_108
+2026-03-14 06:30:21 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_sca_109
+2026-03-14 06:30:22 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_stadium_110
+2026-03-14 06:30:23 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_agas_111
+2026-03-14 06:30:24 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_egov_112
+2026-03-14 06:30:24 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_rights_113
+2026-03-14 06:30:24 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_cwc_114
+2026-03-14 06:30:25 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_orphan_115
+2026-03-14 06:30:25 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_destitute_116
+2026-03-14 06:30:25 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_transgender_117
+2026-03-14 06:30:26 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_nutrition_118
+2026-03-14 06:30:26 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_icds_119
+2026-03-14 06:30:27 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_anganwadi_120
+2026-03-14 06:30:27 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_shg_121
+2026-03-14 06:30:27 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_livelihood_122
+2026-03-14 06:30:27 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_bp_123
+2026-03-14 06:30:28 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_esic_124
+2026-03-14 06:30:28 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_epf_125
+2026-03-14 06:30:28 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_bonus_126
+2026-03-14 06:30:29 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_input_127
+2026-03-14 06:30:29 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_irrigation_128
+2026-03-14 06:30:29 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_pond_129
+2026-03-14 06:30:29 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_checkdam_130
+2026-03-14 06:30:30 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_borewell_131
+2026-03-14 06:30:30 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_rainwater_132
+2026-03-14 06:30:30 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_heritage_133
+2026-03-14 06:30:31 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_temple_134
+2026-03-14 06:30:31 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_museum_135
+2026-03-14 06:30:31 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_artgallery_136
+2026-03-14 06:30:32 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_crafts_137
+2026-03-14 06:30:32 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_matsya_138
+2026-03-14 06:30:33 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_meen_139
+2026-03-14 06:30:33 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_vivasayee_140
+2026-03-14 06:30:34 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_ulagam_141
+2026-03-14 06:30:34 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_vanam_142
+2026-03-14 06:30:35 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_nadun_143
+2026-03-14 06:30:35 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_kanivu_144
+2026-03-14 06:30:36 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_velanmai_145
+2026-03-14 06:30:36 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_malarchi_146
+2026-03-14 06:30:37 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_siruvargal_147
+2026-03-14 06:30:37 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_muthal_148
+2026-03-14 06:30:37 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_kalvi_149
+2026-03-14 06:30:38 | INFO     | admin.upload_json:upsert_schemes_to_database:168 - Inserted new scheme: tn_urimai_150
+2026-03-14 06:30:38 | INFO     | admin.upload_json:render_json_upload:95 - JSON upload: 150 added, 0 updated
+2026-03-14 06:44:31 | ERROR    | database.mongo_handler:get_dashboard_stats:212 - Error getting stats: ac-aydoxnh-shard-00-01.dcxk9bo.mongodb.net:27017: [Errno 11001] getaddrinfo failed,ac-aydoxnh-shard-00-02.dcxk9bo.mongodb.net:27017: [Errno 11001] getaddrinfo failed,ac-aydoxnh-shard-00-00.dcxk9bo.mongodb.net:27017: [Errno 11001] getaddrinfo failed, Timeout: 30s, Topology Description: <TopologyDescription id: 69b4a80770eff821b56ac34d, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-aydoxnh-shard-00-00.dcxk9bo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-aydoxnh-shard-00-00.dcxk9bo.mongodb.net:27017: [Errno 11001] getaddrinfo failed')>, <ServerDescription ('ac-aydoxnh-shard-00-01.dcxk9bo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-aydoxnh-shard-00-01.dcxk9bo.mongodb.net:27017: [Errno 11001] getaddrinfo failed')>, <ServerDescription ('ac-aydoxnh-shard-00-02.dcxk9bo.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-aydoxnh-shard-00-02.dcxk9bo.mongodb.net:27017: [Errno 11001] getaddrinfo failed')>]>
+2026-03-14 06:45:01 | INFO     | database.mongo_handler:add_user:129 - User added/updated: admin@example.com
+2026-03-14 06:45:01 | INFO     | __main__:admin_login:63 - Admin logged in: admin@example.com
+2026-03-14 06:56:30 | SUCCESS  | database.mongo_handler:connect:26 - Connected to MongoDB: scheme_navigator
+2026-03-14 06:56:50 | INFO     | database.mongo_handler:add_user:129 - User added/updated: admin@example.com
+2026-03-14 06:56:50 | INFO     | __main__:admin_login:63 - Admin logged in: admin@example.com
+2026-03-14 06:59:12 | SUCCESS  | database.mongo_handler:connect:26 - Connected to MongoDB: scheme_navigator
+2026-03-14 06:59:23 | INFO     | database.mongo_handler:add_user:129 - User added/updated: admin@example.com
+2026-03-14 06:59:23 | INFO     | __main__:admin_login:63 - Admin logged in: admin@example.com
+2026-03-14 06:59:25 | ERROR    | admin.dashboard:render_dashboard:179 - Query trend error: cannot access local variable 'pd' where it is not associated with a value
+2026-03-14 06:59:25 | ERROR    | admin.dashboard:render_dashboard:223 - Category chart error: cannot access local variable 'pd' where it is not associated with a value
+2026-03-14 06:59:25 | ERROR    | admin.dashboard:render_dashboard:262 - Recent queries error: cannot access local variable 'pd' where it is not associated with a value
+2026-03-14 06:59:59 | SUCCESS  | database.mongo_handler:connect:26 - Connected to MongoDB: scheme_navigator
+2026-03-14 07:00:16 | INFO     | database.mongo_handler:add_user:129 - User added/updated: admin@example.com
+2026-03-14 07:00:16 | INFO     | __main__:admin_login:63 - Admin logged in: admin@example.com
+2026-03-14 07:03:39 | SUCCESS  | database.mongo_handler:connect:26 - Connected to MongoDB: scheme_navigator
+2026-03-14 07:03:50 | INFO     | database.mongo_handler:add_user:129 - User added/updated: admin@example.com
+2026-03-14 07:03:50 | INFO     | __main__:admin_login:63 - Admin logged in: admin@example.com
+2026-03-14 07:05:05 | INFO     | database.mongo_handler:add_user:129 - User added/updated: admin@example.com
+2026-03-14 07:05:05 | INFO     | __main__:admin_login:63 - Admin logged in: admin@example.com
+2026-03-14 07:07:35 | SUCCESS  | database.mongo_handler:connect:26 - Connected to MongoDB: scheme_navigator
+2026-03-14 07:07:58 | INFO     | database.mongo_handler:add_user:129 - User added/updated: admin@example.com
+2026-03-14 07:07:58 | INFO     | __main__:admin_login:63 - Admin logged in: admin@example.com
+2026-03-14 07:08:24 | SUCCESS  | database.mongo_handler:connect:26 - Connected to MongoDB: scheme_navigator
+2026-03-14 07:08:37 | INFO     | database.mongo_handler:add_user:129 - User added/updated: admin@example.com
+2026-03-14 07:08:37 | INFO     | __main__:admin_login:63 - Admin logged in: admin@example.com
+2026-03-14 07:17:27 | INFO     | database.mongo_handler:add_scheme:43 - Added scheme: Telangana Rythu Bharosa Scheme
+2026-03-14 07:17:27 | INFO     | admin.upload_form:render_form_upload:144 - Form upload: Added scheme Telangana Rythu Bharosa Scheme
+2026-03-14 07:17:27 | ERROR    | database.mongo_handler:add_scheme:46 - Error adding scheme: E11000 duplicate key error collection: scheme_navigator.schemes index: scheme_id_1 dup key: { scheme_id: "rythu_bharosa_2025" }, full error: {'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: scheme_navigator.schemes index: scheme_id_1 dup key: { scheme_id: "rythu_bharosa_2025" }', 'keyPattern': {'scheme_id': 1}, 'keyValue': {'scheme_id': 'rythu_bharosa_2025'}}
+2026-03-14 08:06:23 | INFO     | database.mongo_handler:add_user:129 - User added/updated: admin@example.com
+2026-03-14 08:06:23 | INFO     | __main__:admin_login:63 - Admin logged in: admin@example.com
+2026-03-14 08:06:52 | INFO     | database.mongo_handler:add_user:129 - User added/updated: kesavankesavan73907@gmail.com
+2026-03-14 08:07:06 | INFO     | agents.matcher_agent:detect_query_domain:142 - Detected domain: education
+2026-03-14 08:07:06 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'education', 'keywords': ['student', 'tamilnadu'], 'entities': {}, 'original_query': 'i am a student in tamilnadu'}
+2026-03-14 08:07:06 | INFO     | agents.matcher_agent:find_relevant_schemes:166 - Intent analysis - Domain: education, Category: education
+2026-03-14 08:07:06 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'education', 'keywords': ['student', 'tamilnadu'], 'entities': {}, 'original_query': 'i am a student in tamilnadu'}
+2026-03-14 08:07:18 | INFO     | agents.matcher_agent:detect_query_domain:142 - Detected domain: education
+2026-03-14 08:07:18 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'education', 'keywords': ['student', 'tamilnadu'], 'entities': {}, 'original_query': 'i am a student in tamilnadu'}
+2026-03-14 08:07:18 | INFO     | agents.matcher_agent:find_relevant_schemes:166 - Intent analysis - Domain: education, Category: education
+2026-03-14 08:07:18 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'education', 'keywords': ['student', 'tamilnadu'], 'entities': {}, 'original_query': 'i am a student in tamilnadu'}
+2026-03-14 08:07:20 | INFO     | agents.matcher_agent:apply_domain_filtering:272 - Domain filter (education): kept 15 schemes
+2026-03-14 08:07:20 | INFO     | agents.matcher_agent:find_relevant_schemes:208 - Returning 5 relevant schemes for domain 'education'
+2026-03-14 08:07:39 | INFO     | agents.matcher_agent:apply_domain_filtering:272 - Domain filter (education): kept 15 schemes
+2026-03-14 08:07:39 | INFO     | agents.matcher_agent:find_relevant_schemes:208 - Returning 5 relevant schemes for domain 'education'
+2026-03-14 08:07:39 | INFO     | database.mongo_handler:save_user_query:166 - Saved query from kesavankesavan73907@gmail.com
+2026-03-14 08:13:01 | SUCCESS  | database.mongo_handler:connect:27 - Connected to MongoDB: scheme_navigator
+2026-03-14 08:13:01 | ERROR    | database.mongo_handler:_ensure_indexes:49 - Error creating indexes: 'int' object has no attribute 'in_transaction'
+2026-03-14 08:13:14 | INFO     | database.mongo_handler:add_user:265 - User updated: admin@example.com
+2026-03-14 08:13:14 | INFO     | __main__:admin_login:63 - Admin logged in: admin@example.com
+2026-03-14 08:16:36 | INFO     | database.mongo_handler:add_scheme:84 - 🔄 Scheme already exists, updating: rythu_bharosa_2025
+2026-03-14 08:16:36 | ERROR    | database.mongo_handler:add_scheme:101 - Error adding scheme: Performing an update on the path '_id' would modify the immutable field '_id', full error: {'index': 0, 'code': 66, 'errmsg': "Performing an update on the path '_id' would modify the immutable field '_id'"}
+2026-03-14 08:16:36 | ERROR    | admin.upload_form:render_form_upload:200 - Form upload error: Performing an update on the path '_id' would modify the immutable field '_id', full error: {'index': 0, 'code': 66, 'errmsg': "Performing an update on the path '_id' would modify the immutable field '_id'"}
+2026-03-14 08:48:02 | INFO     | database.mongo_handler:add_user:265 - User updated: admin@example.com
+2026-03-14 08:48:02 | INFO     | __main__:admin_login:63 - Admin logged in: admin@example.com
+2026-03-14 08:49:46 | SUCCESS  | database.mongo_handler:connect:27 - Connected to MongoDB: scheme_navigator
+2026-03-14 08:49:46 | ERROR    | database.mongo_handler:_ensure_indexes:49 - Error creating indexes: 'int' object has no attribute 'in_transaction'
+2026-03-14 08:50:02 | INFO     | database.mongo_handler:add_user:280 - User updated: admin@example.com
+2026-03-14 08:50:02 | INFO     | __main__:admin_login:63 - Admin logged in: admin@example.com
+2026-03-14 08:53:54 | INFO     | database.mongo_handler:add_scheme:84 - 🔄 Scheme already exists, updating: rythu_bharosa_2025
+2026-03-14 08:53:54 | INFO     | admin.upload_form:render_form_upload:168 - Form upload: Updated scheme Telangana Rythu Bharosa Scheme (ID: rythu_bharosa_2025)
+2026-03-14 08:53:55 | INFO     | database.mongo_handler:add_scheme:84 - 🔄 Scheme already exists, updating: rythu_bharosa_2025
+2026-03-14 08:53:55 | INFO     | admin.upload_form:render_form_upload:168 - Form upload: Updated scheme Telangana Rythu Bharosa Scheme (ID: rythu_bharosa_2025)
+2026-03-14 08:53:55 | INFO     | database.mongo_handler:add_scheme:84 - 🔄 Scheme already exists, updating: rythu_bharosa_2025
+2026-03-14 08:53:55 | INFO     | admin.upload_form:render_form_upload:168 - Form upload: Updated scheme Telangana Rythu Bharosa Scheme (ID: rythu_bharosa_2025)
+2026-03-14 08:53:56 | INFO     | database.mongo_handler:add_scheme:84 - 🔄 Scheme already exists, updating: rythu_bharosa_2025
+2026-03-14 08:53:56 | INFO     | admin.upload_form:render_form_upload:168 - Form upload: Updated scheme Telangana Rythu Bharosa Scheme (ID: rythu_bharosa_2025)
+2026-03-14 08:53:56 | INFO     | database.mongo_handler:add_scheme:84 - 🔄 Scheme already exists, updating: rythu_bharosa_2025
+2026-03-14 08:53:57 | INFO     | admin.upload_form:render_form_upload:168 - Form upload: Updated scheme Telangana Rythu Bharosa Scheme (ID: rythu_bharosa_2025)
+2026-03-14 08:53:57 | INFO     | database.mongo_handler:add_scheme:84 - 🔄 Scheme already exists, updating: rythu_bharosa_2025
+2026-03-14 08:53:57 | INFO     | admin.upload_form:render_form_upload:168 - Form upload: Updated scheme Telangana Rythu Bharosa Scheme (ID: rythu_bharosa_2025)
+2026-03-14 08:53:57 | INFO     | database.mongo_handler:add_scheme:84 - 🔄 Scheme already exists, updating: rythu_bharosa_2025
+2026-03-14 08:53:57 | INFO     | admin.upload_form:render_form_upload:168 - Form upload: Updated scheme Telangana Rythu Bharosa Scheme (ID: rythu_bharosa_2025)
+2026-03-14 08:53:58 | INFO     | database.mongo_handler:add_scheme:84 - 🔄 Scheme already exists, updating: rythu_bharosa_2025
+2026-03-14 08:53:58 | INFO     | admin.upload_form:render_form_upload:168 - Form upload: Updated scheme Telangana Rythu Bharosa Scheme (ID: rythu_bharosa_2025)
+2026-03-14 08:53:58 | INFO     | database.mongo_handler:add_scheme:84 - 🔄 Scheme already exists, updating: rythu_bharosa_2025
+2026-03-14 08:53:58 | INFO     | admin.upload_form:render_form_upload:168 - Form upload: Updated scheme Telangana Rythu Bharosa Scheme (ID: rythu_bharosa_2025)
+2026-03-14 08:53:59 | INFO     | database.mongo_handler:add_scheme:84 - 🔄 Scheme already exists, updating: rythu_bharosa_2025
+2026-03-14 08:53:59 | INFO     | admin.upload_form:render_form_upload:168 - Form upload: Updated scheme Telangana Rythu Bharosa Scheme (ID: rythu_bharosa_2025)
+2026-03-14 08:53:59 | INFO     | database.mongo_handler:add_scheme:84 - 🔄 Scheme already exists, updating: rythu_bharosa_2025
+2026-03-14 08:53:59 | INFO     | admin.upload_form:render_form_upload:168 - Form upload: Updated scheme Telangana Rythu Bharosa Scheme (ID: rythu_bharosa_2025)
+2026-03-14 08:53:59 | INFO     | database.mongo_handler:add_scheme:84 - 🔄 Scheme already exists, updating: rythu_bharosa_2025
+2026-03-14 08:54:00 | INFO     | admin.upload_form:render_form_upload:168 - Form upload: Updated scheme Telangana Rythu Bharosa Scheme (ID: rythu_bharosa_2025)
+2026-03-14 08:54:00 | INFO     | database.mongo_handler:add_scheme:84 - 🔄 Scheme already exists, updating: rythu_bharosa_2025
+2026-03-14 08:54:00 | INFO     | admin.upload_form:render_form_upload:168 - Form upload: Updated scheme Telangana Rythu Bharosa Scheme (ID: rythu_bharosa_2025)
+2026-03-14 08:54:01 | INFO     | database.mongo_handler:add_scheme:84 - 🔄 Scheme already exists, updating: rythu_bharosa_2025
+2026-03-14 08:54:01 | INFO     | admin.upload_form:render_form_upload:168 - Form upload: Updated scheme Telangana Rythu Bharosa Scheme (ID: rythu_bharosa_2025)
+2026-03-14 08:54:01 | INFO     | database.mongo_handler:add_scheme:84 - 🔄 Scheme already exists, updating: rythu_bharosa_2025
+2026-03-14 08:54:01 | INFO     | admin.upload_form:render_form_upload:168 - Form upload: Updated scheme Telangana Rythu Bharosa Scheme (ID: rythu_bharosa_2025)
+2026-03-14 08:54:02 | INFO     | database.mongo_handler:add_scheme:84 - 🔄 Scheme already exists, updating: rythu_bharosa_2025
+2026-03-14 08:54:02 | INFO     | admin.upload_form:render_form_upload:168 - Form upload: Updated scheme Telangana Rythu Bharosa Scheme (ID: rythu_bharosa_2025)
+2026-03-14 08:54:02 | INFO     | database.mongo_handler:add_scheme:84 - 🔄 Scheme already exists, updating: rythu_bharosa_2025
+2026-03-14 08:54:03 | INFO     | admin.upload_form:render_form_upload:168 - Form upload: Updated scheme Telangana Rythu Bharosa Scheme (ID: rythu_bharosa_2025)
+2026-03-14 08:54:03 | INFO     | database.mongo_handler:add_scheme:84 - 🔄 Scheme already exists, updating: rythu_bharosa_2025
+2026-03-14 08:54:03 | INFO     | admin.upload_form:render_form_upload:168 - Form upload: Updated scheme Telangana Rythu Bharosa Scheme (ID: rythu_bharosa_2025)
+2026-03-14 08:54:03 | INFO     | database.mongo_handler:add_scheme:84 - 🔄 Scheme already exists, updating: rythu_bharosa_2025
+2026-03-14 08:54:04 | INFO     | admin.upload_form:render_form_upload:168 - Form upload: Updated scheme Telangana Rythu Bharosa Scheme (ID: rythu_bharosa_2025)
+2026-03-14 08:54:04 | INFO     | database.mongo_handler:add_scheme:84 - 🔄 Scheme already exists, updating: rythu_bharosa_2025
+2026-03-14 08:54:04 | INFO     | admin.upload_form:render_form_upload:168 - Form upload: Updated scheme Telangana Rythu Bharosa Scheme (ID: rythu_bharosa_2025)
+2026-03-14 08:54:05 | INFO     | database.mongo_handler:add_scheme:84 - 🔄 Scheme already exists, updating: rythu_bharosa_2025
+2026-03-14 08:54:05 | INFO     | admin.upload_form:render_form_upload:168 - Form upload: Updated scheme Telangana Rythu Bharosa Scheme (ID: rythu_bharosa_2025)
+2026-03-14 08:54:05 | INFO     | database.mongo_handler:add_scheme:84 - 🔄 Scheme already exists, updating: rythu_bharosa_2025
+2026-03-14 08:54:05 | INFO     | admin.upload_form:render_form_upload:168 - Form upload: Updated scheme Telangana Rythu Bharosa Scheme (ID: rythu_bharosa_2025)
+2026-03-14 08:54:06 | INFO     | database.mongo_handler:add_scheme:84 - 🔄 Scheme already exists, updating: rythu_bharosa_2025
+2026-03-14 08:54:06 | INFO     | admin.upload_form:render_form_upload:168 - Form upload: Updated scheme Telangana Rythu Bharosa Scheme (ID: rythu_bharosa_2025)
+2026-03-14 08:54:06 | INFO     | database.mongo_handler:add_scheme:84 - 🔄 Scheme already exists, updating: rythu_bharosa_2025
+2026-03-14 08:54:06 | INFO     | admin.upload_form:render_form_upload:168 - Form upload: Updated scheme Telangana Rythu Bharosa Scheme (ID: rythu_bharosa_2025)
+2026-03-14 08:54:07 | INFO     | database.mongo_handler:add_scheme:84 - 🔄 Scheme already exists, updating: rythu_bharosa_2025
+2026-03-14 08:54:07 | INFO     | admin.upload_form:render_form_upload:168 - Form upload: Updated scheme Telangana Rythu Bharosa Scheme (ID: rythu_bharosa_2025)
+2026-03-14 08:58:25 | SUCCESS  | database.mongo_handler:connect:27 - Connected to MongoDB: scheme_navigator
+2026-03-14 08:58:26 | ERROR    | database.mongo_handler:_ensure_indexes:49 - Error creating indexes: 'int' object has no attribute 'in_transaction'
+2026-03-14 08:58:26 | INFO     | agents.intent_agent:__init__:131 - Intent Agent initialized
+2026-03-14 08:58:26 | INFO     | agents.matcher_agent:<module>:21 - Sentence transformers available
+2026-03-14 08:58:26 | INFO     | agents.intent_agent:__init__:131 - Intent Agent initialized
+2026-03-14 08:58:26 | INFO     | agents.matcher_agent:__init__:92 - Hybrid Matcher Agent initialized
+2026-03-14 08:59:02 | INFO     | database.scheme_loader:load_from_csv:48 - Loaded 1 schemes from CSV
+2026-03-14 08:59:02 | INFO     | database.mongo_handler:add_scheme:79 - ✅ Added new scheme: Rythu Bandhu Scheme (ID: ts_rythu_bandhu_101)
+2026-03-14 08:59:02 | INFO     | database.mongo_handler:add_schemes_bulk:152 - Bulk add completed: 1 inserted, 0 updated, 0 skipped, 0 errors
+2026-03-14 08:59:02 | ERROR    | database.scheme_loader:save_to_database:88 - Error saving to database: 'dict' object has no attribute 'inserted_ids'
+2026-03-14 09:04:10 | SUCCESS  | database.mongo_handler:connect:27 - Connected to MongoDB: scheme_navigator
+2026-03-14 09:04:10 | ERROR    | database.mongo_handler:_ensure_indexes:49 - Error creating indexes: 'int' object has no attribute 'in_transaction'
+2026-03-14 09:04:23 | INFO     | database.mongo_handler:add_user:280 - User updated: admin@example.com
+2026-03-14 09:04:23 | INFO     | __main__:admin_login:63 - Admin logged in: admin@example.com
+2026-03-14 09:04:42 | INFO     | database.mongo_handler:add_scheme:84 - 🔄 Scheme already exists, updating: ts_rythu_bandhu_101
+2026-03-14 09:04:42 | INFO     | database.mongo_handler:add_schemes_bulk:152 - Bulk add completed: 0 inserted, 1 updated, 0 skipped, 0 errors
+2026-03-14 09:05:07 | ERROR    | database.mongo_handler:get_all_queries:347 - Error getting all queries: limit must be an integer
+2026-03-14 09:06:23 | INFO     | database.mongo_handler:add_user:277 - New user added: kesvankesavan73907@gmail.com
+2026-03-14 09:07:28 | INFO     | agents.matcher_agent:find_relevant_schemes:157 - Tamil query detected
+2026-03-14 09:07:30 | INFO     | agents.matcher_agent:find_relevant_schemes:159 - Translated to English: I would like to know the financial schemes offered to female headed families.
+2026-03-14 09:07:30 | INFO     | agents.matcher_agent:detect_query_domain:142 - Detected domain: women
+2026-03-14 09:07:30 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'benefits', 'secondary_intents': [], 'category': 'general', 'keywords': ['would', 'like', 'know', 'financial', 'schemes', 'offered', 'female', 'headed', 'families'], 'entities': {}, 'original_query': 'I would like to know the financial schemes offered to female headed families.'}
+2026-03-14 09:07:30 | INFO     | agents.matcher_agent:find_relevant_schemes:166 - Intent analysis - Domain: women, Category: general
+2026-03-14 09:07:30 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'benefits', 'secondary_intents': [], 'category': 'general', 'keywords': ['would', 'like', 'know', 'financial', 'schemes', 'offered', 'female', 'headed', 'families'], 'entities': {}, 'original_query': 'I would like to know the financial schemes offered to female headed families.'}
+2026-03-14 09:07:37 | INFO     | agents.matcher_agent:apply_domain_filtering:272 - Domain filter (women): kept 15 schemes
+2026-03-14 09:07:39 | INFO     | agents.matcher_agent:find_relevant_schemes:157 - Tamil query detected
+2026-03-14 09:07:39 | INFO     | agents.matcher_agent:find_relevant_schemes:159 - Translated to English: I would like to know the financial schemes offered to female headed families.
+2026-03-14 09:07:39 | INFO     | agents.matcher_agent:detect_query_domain:142 - Detected domain: women
+2026-03-14 09:07:39 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'benefits', 'secondary_intents': [], 'category': 'general', 'keywords': ['would', 'like', 'know', 'financial', 'schemes', 'offered', 'female', 'headed', 'families'], 'entities': {}, 'original_query': 'I would like to know the financial schemes offered to female headed families.'}
+2026-03-14 09:07:39 | INFO     | agents.matcher_agent:find_relevant_schemes:166 - Intent analysis - Domain: women, Category: general
+2026-03-14 09:07:39 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'benefits', 'secondary_intents': [], 'category': 'general', 'keywords': ['would', 'like', 'know', 'financial', 'schemes', 'offered', 'female', 'headed', 'families'], 'entities': {}, 'original_query': 'I would like to know the financial schemes offered to female headed families.'}
+2026-03-14 09:07:42 | INFO     | agents.matcher_agent:find_relevant_schemes:157 - Tamil query detected
+2026-03-14 09:07:42 | INFO     | agents.matcher_agent:find_relevant_schemes:159 - Translated to English: I would like to know the financial schemes offered to female headed families.
+2026-03-14 09:07:42 | INFO     | agents.matcher_agent:detect_query_domain:142 - Detected domain: women
+2026-03-14 09:07:42 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'benefits', 'secondary_intents': [], 'category': 'general', 'keywords': ['would', 'like', 'know', 'financial', 'schemes', 'offered', 'female', 'headed', 'families'], 'entities': {}, 'original_query': 'I would like to know the financial schemes offered to female headed families.'}
+2026-03-14 09:07:42 | INFO     | agents.matcher_agent:find_relevant_schemes:166 - Intent analysis - Domain: women, Category: general
+2026-03-14 09:07:42 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'benefits', 'secondary_intents': [], 'category': 'general', 'keywords': ['would', 'like', 'know', 'financial', 'schemes', 'offered', 'female', 'headed', 'families'], 'entities': {}, 'original_query': 'I would like to know the financial schemes offered to female headed families.'}
+2026-03-14 09:07:51 | INFO     | agents.matcher_agent:apply_domain_filtering:272 - Domain filter (women): kept 15 schemes
+2026-03-14 09:07:54 | INFO     | agents.matcher_agent:apply_domain_filtering:272 - Domain filter (women): kept 15 schemes
+2026-03-14 09:08:05 | INFO     | agents.matcher_agent:find_relevant_schemes:208 - Returning 5 relevant schemes for domain 'women'
+2026-03-14 09:08:05 | INFO     | agents.matcher_agent:find_relevant_schemes:208 - Returning 5 relevant schemes for domain 'women'
+2026-03-14 09:08:05 | INFO     | agents.matcher_agent:find_relevant_schemes:208 - Returning 5 relevant schemes for domain 'women'
+2026-03-14 09:08:05 | INFO     | database.mongo_handler:save_user_query:318 - Saved query from kesvankesavan73907@gmail.com
+2026-03-14 09:10:26 | INFO     | agents.matcher_agent:detect_query_domain:142 - Detected domain: women
+2026-03-14 09:10:26 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'benefits', 'secondary_intents': [], 'category': 'housing', 'keywords': ['want', 'know', 'financial', 'schemes', 'women', 'headed', 'households'], 'entities': {}, 'original_query': 'I want to know financial schemes for women-headed households.\n'}
+2026-03-14 09:10:26 | INFO     | agents.matcher_agent:find_relevant_schemes:166 - Intent analysis - Domain: women, Category: housing
+2026-03-14 09:10:26 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'benefits', 'secondary_intents': [], 'category': 'housing', 'keywords': ['want', 'know', 'financial', 'schemes', 'women', 'headed', 'households'], 'entities': {}, 'original_query': 'I want to know financial schemes for women-headed households.\n'}
+2026-03-14 09:10:33 | INFO     | agents.matcher_agent:apply_domain_filtering:272 - Domain filter (women): kept 15 schemes
+2026-03-14 09:10:33 | INFO     | agents.matcher_agent:find_relevant_schemes:208 - Returning 5 relevant schemes for domain 'women'
+2026-03-14 09:10:33 | INFO     | database.mongo_handler:save_user_query:318 - Saved query from kesvankesavan73907@gmail.com
+2026-03-14 09:11:15 | INFO     | agents.matcher_agent:find_relevant_schemes:157 - Tamil query detected
+2026-03-14 09:11:15 | INFO     | agents.matcher_agent:find_relevant_schemes:159 - Translated to English: I am a farmer in Tamil Nadu. I need crop welfare schemes.
+2026-03-14 09:11:15 | INFO     | agents.matcher_agent:detect_query_domain:142 - Detected domain: agriculture
+2026-03-14 09:11:15 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'agriculture', 'keywords': ['farmer', 'tamil', 'nadu', 'need', 'crop', 'welfare', 'schemes'], 'entities': {'state': 'tamil nadu'}, 'original_query': 'I am a farmer in Tamil Nadu. I need crop welfare schemes.'}
+2026-03-14 09:11:15 | INFO     | agents.matcher_agent:find_relevant_schemes:166 - Intent analysis - Domain: agriculture, Category: agriculture
+2026-03-14 09:11:15 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'agriculture', 'keywords': ['farmer', 'tamil', 'nadu', 'need', 'crop', 'welfare', 'schemes'], 'entities': {'state': 'tamil nadu'}, 'original_query': 'I am a farmer in Tamil Nadu. I need crop welfare schemes.'}
+2026-03-14 09:11:23 | INFO     | agents.matcher_agent:apply_domain_filtering:272 - Domain filter (agriculture): kept 15 schemes
+2026-03-14 09:11:43 | INFO     | agents.matcher_agent:find_relevant_schemes:208 - Returning 5 relevant schemes for domain 'agriculture'
+2026-03-14 09:11:43 | INFO     | database.mongo_handler:save_user_query:318 - Saved query from kesvankesavan73907@gmail.com
+2026-03-14 09:22:38 | INFO     | database.mongo_handler:add_user:280 - User updated: admin@example.com
+2026-03-14 09:22:38 | INFO     | __main__:admin_login:63 - Admin logged in: admin@example.com
+2026-03-14 09:23:07 | INFO     | agents.matcher_agent:detect_query_domain:142 - Detected domain: women
+2026-03-14 09:23:07 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'general', 'keywords': ['tamilnadu', 'women', 'schemes'], 'entities': {}, 'original_query': 'tamilnadu women schemes '}
+2026-03-14 09:23:07 | INFO     | agents.matcher_agent:find_relevant_schemes:166 - Intent analysis - Domain: women, Category: general
+2026-03-14 09:23:07 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'general', 'keywords': ['tamilnadu', 'women', 'schemes'], 'entities': {}, 'original_query': 'tamilnadu women schemes '}
+2026-03-14 09:23:14 | INFO     | agents.matcher_agent:apply_domain_filtering:272 - Domain filter (women): kept 15 schemes
+2026-03-14 09:23:14 | INFO     | agents.matcher_agent:find_relevant_schemes:208 - Returning 5 relevant schemes for domain 'women'
+2026-03-14 09:23:14 | INFO     | database.mongo_handler:save_user_query:318 - Saved query from kesvankesavan73907@gmail.com
+2026-03-14 09:24:52 | INFO     | agents.matcher_agent:find_relevant_schemes:157 - Tamil query detected
+2026-03-14 09:24:53 | INFO     | agents.matcher_agent:find_relevant_schemes:159 - Translated to English: I am low income. Government funding and job placement assistance programs are needed.
+2026-03-14 09:24:53 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'benefits', 'secondary_intents': [], 'category': 'employment', 'keywords': ['income', 'government', 'funding', 'placement', 'assistance', 'programs', 'needed'], 'entities': {}, 'original_query': 'I am low income. Government funding and job placement assistance programs are needed.'}
+2026-03-14 09:24:53 | INFO     | agents.matcher_agent:find_relevant_schemes:166 - Intent analysis - Domain: general, Category: employment
+2026-03-14 09:24:53 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'benefits', 'secondary_intents': [], 'category': 'employment', 'keywords': ['income', 'government', 'funding', 'placement', 'assistance', 'programs', 'needed'], 'entities': {}, 'original_query': 'I am low income. Government funding and job placement assistance programs are needed.'}
+2026-03-14 09:25:26 | INFO     | agents.matcher_agent:find_relevant_schemes:208 - Returning 5 relevant schemes for domain 'general'
+2026-03-14 09:25:26 | INFO     | database.mongo_handler:save_user_query:318 - Saved query from kesvankesavan73907@gmail.com
+2026-03-14 09:25:52 | INFO     | agents.matcher_agent:find_relevant_schemes:157 - Tamil query detected
+2026-03-14 09:25:53 | INFO     | agents.matcher_agent:find_relevant_schemes:159 - Translated to English: I need family welfare schemes and livelihood assistance.
+2026-03-14 09:25:53 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'benefits', 'secondary_intents': [], 'category': 'social_welfare', 'keywords': ['need', 'family', 'welfare', 'schemes', 'livelihood', 'assistance'], 'entities': {}, 'original_query': 'I need family welfare schemes and livelihood assistance.'}
+2026-03-14 09:25:53 | INFO     | agents.matcher_agent:find_relevant_schemes:166 - Intent analysis - Domain: general, Category: social_welfare
+2026-03-14 09:25:53 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'benefits', 'secondary_intents': [], 'category': 'social_welfare', 'keywords': ['need', 'family', 'welfare', 'schemes', 'livelihood', 'assistance'], 'entities': {}, 'original_query': 'I need family welfare schemes and livelihood assistance.'}
+2026-03-14 09:26:21 | INFO     | agents.matcher_agent:find_relevant_schemes:208 - Returning 5 relevant schemes for domain 'general'
+2026-03-14 09:26:21 | INFO     | database.mongo_handler:save_user_query:318 - Saved query from kesvankesavan73907@gmail.com
+2026-03-14 09:34:36 | INFO     | database.mongo_handler:add_user:280 - User updated: kesavankesavan73907@gmail.com
+2026-03-14 09:34:54 | INFO     | agents.matcher_agent:find_relevant_schemes:157 - Tamil query detected
+2026-03-14 09:34:54 | INFO     | agents.matcher_agent:find_relevant_schemes:159 - Translated to English: I am low income. Government funding and job placement assistance programs are needed.
+2026-03-14 09:34:54 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'benefits', 'secondary_intents': [], 'category': 'employment', 'keywords': ['income', 'government', 'funding', 'placement', 'assistance', 'programs', 'needed'], 'entities': {}, 'original_query': 'I am low income. Government funding and job placement assistance programs are needed.'}
+2026-03-14 09:34:54 | INFO     | agents.matcher_agent:find_relevant_schemes:166 - Intent analysis - Domain: general, Category: employment
+2026-03-14 09:34:54 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'benefits', 'secondary_intents': [], 'category': 'employment', 'keywords': ['income', 'government', 'funding', 'placement', 'assistance', 'programs', 'needed'], 'entities': {}, 'original_query': 'I am low income. Government funding and job placement assistance programs are needed.'}
+2026-03-14 09:35:00 | INFO     | agents.matcher_agent:find_relevant_schemes:208 - Returning 5 relevant schemes for domain 'general'
+2026-03-14 09:35:00 | INFO     | database.mongo_handler:save_user_query:318 - Saved query from kesavankesavan73907@gmail.com
+2026-03-14 09:37:35 | INFO     | agents.matcher_agent:find_relevant_schemes:157 - Tamil query detected
+2026-03-14 09:37:37 | INFO     | agents.matcher_agent:find_relevant_schemes:159 - Translated to English: I am worker. I like government employment and training schemes..
+2026-03-14 09:37:37 | INFO     | agents.matcher_agent:detect_query_domain:142 - Detected domain: education
+2026-03-14 09:37:37 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'employment', 'keywords': ['worker', 'like', 'government', 'employment', 'training', 'schemes'], 'entities': {}, 'original_query': 'I am worker. I like government employment and training schemes..'}
+2026-03-14 09:37:37 | INFO     | agents.matcher_agent:find_relevant_schemes:166 - Intent analysis - Domain: education, Category: employment
+2026-03-14 09:37:37 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'employment', 'keywords': ['worker', 'like', 'government', 'employment', 'training', 'schemes'], 'entities': {}, 'original_query': 'I am worker. I like government employment and training schemes..'}
+2026-03-14 09:37:44 | INFO     | agents.matcher_agent:apply_domain_filtering:272 - Domain filter (education): kept 15 schemes
+2026-03-14 09:38:07 | INFO     | agents.matcher_agent:find_relevant_schemes:208 - Returning 5 relevant schemes for domain 'education'
+2026-03-14 09:38:07 | INFO     | database.mongo_handler:save_user_query:318 - Saved query from kesavankesavan73907@gmail.com
+2026-03-14 09:39:02 | INFO     | agents.matcher_agent:detect_query_domain:142 - Detected domain: women
+2026-03-14 09:39:02 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'general', 'keywords': ['women', 'schemes', 'tamilnadu'], 'entities': {}, 'original_query': 'women schemes in tamilnadu'}
+2026-03-14 09:39:02 | INFO     | agents.matcher_agent:find_relevant_schemes:166 - Intent analysis - Domain: women, Category: general
+2026-03-14 09:39:02 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'general', 'keywords': ['women', 'schemes', 'tamilnadu'], 'entities': {}, 'original_query': 'women schemes in tamilnadu'}
+2026-03-14 09:39:09 | INFO     | agents.matcher_agent:apply_domain_filtering:272 - Domain filter (women): kept 15 schemes
+2026-03-14 09:39:09 | INFO     | agents.matcher_agent:find_relevant_schemes:208 - Returning 5 relevant schemes for domain 'women'
+2026-03-14 09:39:09 | INFO     | database.mongo_handler:save_user_query:318 - Saved query from kesavankesavan73907@gmail.com
+2026-03-14 09:39:42 | INFO     | agents.matcher_agent:detect_query_domain:142 - Detected domain: agriculture
+2026-03-14 09:39:42 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'agriculture', 'keywords': ['farmer', 'tamilnadu'], 'entities': {}, 'original_query': 'i am a farmer in tamilnadu'}
+2026-03-14 09:39:42 | INFO     | agents.matcher_agent:find_relevant_schemes:166 - Intent analysis - Domain: agriculture, Category: agriculture
+2026-03-14 09:39:42 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'agriculture', 'keywords': ['farmer', 'tamilnadu'], 'entities': {}, 'original_query': 'i am a farmer in tamilnadu'}
+2026-03-14 09:39:50 | INFO     | agents.matcher_agent:apply_domain_filtering:272 - Domain filter (agriculture): kept 15 schemes
+2026-03-14 09:39:50 | INFO     | agents.matcher_agent:find_relevant_schemes:208 - Returning 5 relevant schemes for domain 'agriculture'
+2026-03-14 09:39:50 | INFO     | database.mongo_handler:save_user_query:318 - Saved query from kesavankesavan73907@gmail.com
+2026-03-14 09:40:46 | INFO     | agents.matcher_agent:detect_query_domain:142 - Detected domain: education
+2026-03-14 09:40:46 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'education', 'keywords': ['student', 'tamilnadu'], 'entities': {}, 'original_query': 'i am a student in tamilnadu'}
+2026-03-14 09:40:46 | INFO     | agents.matcher_agent:find_relevant_schemes:166 - Intent analysis - Domain: education, Category: education
+2026-03-14 09:40:46 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'education', 'keywords': ['student', 'tamilnadu'], 'entities': {}, 'original_query': 'i am a student in tamilnadu'}
+2026-03-14 09:40:53 | INFO     | agents.matcher_agent:apply_domain_filtering:272 - Domain filter (education): kept 15 schemes
+2026-03-14 09:40:53 | INFO     | agents.matcher_agent:find_relevant_schemes:208 - Returning 5 relevant schemes for domain 'education'
+2026-03-14 09:40:53 | INFO     | database.mongo_handler:save_user_query:318 - Saved query from kesavankesavan73907@gmail.com
+2026-03-14 09:50:53 | SUCCESS  | database.mongo_handler:connect:27 - Connected to MongoDB: scheme_navigator
+2026-03-14 09:50:53 | ERROR    | database.mongo_handler:_ensure_indexes:49 - Error creating indexes: 'int' object has no attribute 'in_transaction'
+2026-03-14 09:50:53 | INFO     | agents.intent_agent:__init__:131 - Intent Agent initialized
+2026-03-14 09:50:53 | INFO     | agents.matcher_agent:<module>:21 - Sentence transformers available
+2026-03-14 09:50:54 | INFO     | agents.intent_agent:__init__:131 - Intent Agent initialized
+2026-03-14 09:50:54 | INFO     | agents.matcher_agent:__init__:92 - Hybrid Matcher Agent initialized
+2026-03-14 09:51:10 | INFO     | database.mongo_handler:add_user:280 - User updated: kesvankesavan73907@gmail.com
+2026-03-14 09:51:28 | INFO     | agents.matcher_agent:detect_query_domain:142 - Detected domain: agriculture
+2026-03-14 09:51:28 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'agriculture', 'keywords': ['farmer', 'tamilnadu'], 'entities': {}, 'original_query': 'i am a farmer in tamilnadu'}
+2026-03-14 09:51:28 | INFO     | agents.matcher_agent:find_relevant_schemes:166 - Intent analysis - Domain: agriculture, Category: agriculture
+2026-03-14 09:51:28 | DEBUG    | agents.intent_agent:analyze_intent:224 - Intent analysis: {'primary_intent': 'general', 'secondary_intents': [], 'category': 'agriculture', 'keywords': ['farmer', 'tamilnadu'], 'entities': {}, 'original_query': 'i am a farmer in tamilnadu'}
+2026-03-14 09:51:40 | INFO     | agents.matcher_agent:apply_domain_filtering:272 - Domain filter (agriculture): kept 15 schemes
+2026-03-14 09:51:41 | INFO     | agents.matcher_agent:find_relevant_schemes:208 - Returning 5 relevant schemes for domain 'agriculture'
+2026-03-14 09:51:41 | INFO     | database.mongo_handler:save_user_query:318 - Saved query from kesvankesavan73907@gmail.com
+2026-03-14 09:55:05 | SUCCESS  | database.mongo_handler:connect:27 - Connected to MongoDB: scheme_navigator
+2026-03-14 09:55:05 | ERROR    | database.mongo_handler:_ensure_indexes:49 - Error creating indexes: 'int' object has no attribute 'in_transaction'
+2026-03-14 09:55:26 | INFO     | database.mongo_handler:add_user:280 - User updated: admin@example.com
+2026-03-14 09:55:26 | INFO     | __main__:admin_login:132 - Admin logged in: admin@example.com

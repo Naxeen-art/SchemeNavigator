@@ -1,17 +1,25 @@
 import streamlit as st
 import json
-from database.scheme_loader import SchemeLoader
+from database.mongo_handler import db
 from utils.logger import logger
+from datetime import datetime
 
 
 def render_json_upload():
-    """Render JSON upload interface"""
+    """Render JSON upload interface with upsert (update or insert) functionality"""
     
     # Initialize session state for file uploader key
     if 'json_uploader_key' not in st.session_state:
         st.session_state.json_uploader_key = 0
     
-    st.markdown("### 📁 JSON Upload")
+    st.markdown("### 📁 JSON Upload (Upsert Mode)")
+
+    st.info("""
+    **🔄 Upsert Mode Active**
+    - If scheme exists → It will be **UPDATED** with new data
+    - If scheme is new → It will be **INSERTED** into database
+    - No data loss, no duplicate errors
+    """)
 
     st.markdown("""
     **JSON Format Example:**
@@ -46,7 +54,7 @@ def render_json_upload():
     with col1:
         if uploaded_file is not None:
             if st.button(
-                "📥 Upload to Database",
+                "📥 Upload (Upsert)",
                 type="primary",
                 key="json_upload_btn"
             ):
@@ -67,24 +75,34 @@ def render_json_upload():
                             st.json(data)
                     else:
                         st.json(data)
+                        data = [data]  # Convert single scheme to list
                     
-                    # Process upload
-                    schemes, error = SchemeLoader.load_from_json(data)
+                    # Process upload with upsert
+                    success_count, update_count, errors = upsert_schemes_to_database(data)
 
-                    if error:
-                        st.error(error)
+                    if success_count > 0 or update_count > 0:
+                        st.success(f"✅ Successfully processed {success_count + update_count} schemes")
+                        if success_count > 0:
+                            st.info(f"📝 New schemes added: {success_count}")
+                        if update_count > 0:
+                            st.info(f"🔄 Existing schemes updated: {update_count}")
+                        if errors:
+                            st.warning(f"⚠️ {len(errors)} errors occurred")
+                            with st.expander("View Errors"):
+                                for error in errors[:5]:
+                                    st.error(error)
+                        
+                        logger.info(f"JSON upload: {success_count} added, {update_count} updated")
+                        
+                        # Clear the file uploader after successful upload
+                        st.session_state.json_uploader_key += 1
+                        st.rerun()
                     else:
-                        success, msg = SchemeLoader.save_to_database(schemes)
-
-                        if success:
-                            st.success(msg)
-                            logger.info(f"JSON upload success: {msg}")
-                            
-                            # Clear the file uploader after successful upload
-                            st.session_state.json_uploader_key += 1
-                            st.rerun()
-                        else:
-                            st.error(msg)
+                        st.error("No schemes were processed")
+                        if errors:
+                            with st.expander("View Errors"):
+                                for error in errors:
+                                    st.error(error)
                             
                 except json.JSONDecodeError as e:
                     st.error(f"Invalid JSON format: {str(e)}")
@@ -103,3 +121,55 @@ def render_json_upload():
     # Show message when no file is selected
     if uploaded_file is None:
         st.info("👆 Please select a JSON file to upload")
+
+
+def upsert_schemes_to_database(schemes_data):
+    """
+    Upsert schemes to database (update if exists, insert if new)
+    
+    Returns:
+        tuple: (inserted_count, updated_count, errors)
+    """
+    collection = db.get_collection("schemes")
+    inserted_count = 0
+    updated_count = 0
+    errors = []
+    
+    for idx, scheme in enumerate(schemes_data):
+        try:
+            # Generate scheme_id if missing
+            if 'scheme_id' not in scheme or not scheme['scheme_id']:
+                if scheme.get('scheme_name'):
+                    scheme['scheme_id'] = scheme['scheme_name'].lower().replace(' ', '_')
+                else:
+                    errors.append(f"Row {idx + 1}: Missing both scheme_id and scheme_name")
+                    continue
+            
+            # Add/update timestamps
+            scheme['updated_at'] = datetime.now()
+            
+            # Check if scheme exists
+            existing = collection.find_one({'scheme_id': scheme['scheme_id']})
+            
+            if existing:
+                # Update existing scheme
+                result = collection.update_one(
+                    {'scheme_id': scheme['scheme_id']},
+                    {'$set': scheme}
+                )
+                if result.modified_count > 0:
+                    updated_count += 1
+                    logger.info(f"Updated scheme: {scheme['scheme_id']}")
+            else:
+                # Insert new scheme
+                scheme['created_at'] = datetime.now()
+                collection.insert_one(scheme)
+                inserted_count += 1
+                logger.info(f"Inserted new scheme: {scheme['scheme_id']}")
+                
+        except Exception as e:
+            error_msg = f"Error processing scheme {scheme.get('scheme_id', 'unknown')}: {str(e)}"
+            errors.append(error_msg)
+            logger.error(error_msg)
+    
+    return inserted_count, updated_count, errors

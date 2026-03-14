@@ -17,18 +17,87 @@ from utils.logger import logger
 
 # ---------------- CSS ----------------
 
+# ---------------- MODERN ADMIN UI CSS ----------------
+
 st.markdown("""
 <style>
+
+/* Main Background */
+.stApp {
+    background: linear-gradient(120deg,#1f1c2c,#928dab);
+    color:white;
+}
+
+/* Admin Header */
 .admin-header {
-    background: linear-gradient(135deg,#667eea 0%,#764ba2 100%);
-    padding:1.5rem;
-    border-radius:10px;
+    background: linear-gradient(135deg,#ff512f,#dd2476);
+    padding:2rem;
+    border-radius:16px;
     color:white;
     text-align:center;
-    margin-bottom:2rem;
+    margin-bottom:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.35);
 }
+
+/* Sidebar Styling */
+[data-testid="stSidebar"] {
+    background: linear-gradient(180deg,#141E30,#243B55);
+}
+
+/* Buttons */
+.stButton button {
+    background: linear-gradient(135deg,#36d1dc,#5b86e5);
+    border:none;
+    color:white;
+    padding:10px;
+    border-radius:10px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.stButton button:hover {
+    transform:scale(1.05);
+}
+
+/* Cards */
+.admin-card {
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(10px);
+    border-radius:16px;
+    padding:20px;
+    margin-bottom:15px;
+    border:1px solid rgba(255,255,255,0.1);
+    transition:0.3s;
+}
+
+.admin-card:hover {
+    transform:translateY(-5px);
+    box-shadow:0 8px 20px rgba(0,0,0,0.4);
+}
+
+/* Expander */
+.streamlit-expanderHeader {
+    font-weight:600;
+}
+
+/* Input fields */
+input, textarea {
+    border-radius:10px !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width:8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background:#5b86e5;
+    border-radius:10px;
+}
+
 </style>
 """, unsafe_allow_html=True)
+
 
 
 # ---------------- ADMIN LOGIN ----------------

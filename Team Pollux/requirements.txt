@@ -1,5 +1,5 @@
-beautifulsoup4
-requests
+# requirements.txt - Updated with compatible versions
+
 streamlit==1.28.0
 pymongo==4.5.0
 pandas==2.1.0
@@ -10,7 +10,18 @@ google-auth==2.23.0
 google-auth-oauthlib==1.1.0
 google-auth-httplib2==0.1.1
 streamlit-option-menu==0.3.6
-sentence-transformers==2.2.2
 scikit-learn==1.3.0
 loguru==0.7.2
 pydantic==2.4.0
+beautifulsoup4==4.12.2
+requests==2.31.0
+
+# Fix compatibility issues - specific versions
+sentence-transformers==2.2.2
+huggingface-hub==0.16.4
+torch==2.0.1
+transformers==4.30.2
+tokenizers==0.13.3
+
+# For web search
+duckduckgo-search==4.1.1
